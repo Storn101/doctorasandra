@@ -372,18 +372,19 @@
             border-collapse: collapse;
             margin-top: 15px;
             font-size: 14px;
+            background-color: #ffffff;
         }
 
         .project-table th, .project-table td {
             border: 1px solid #E5E5E5;
-            padding: 10px;
+            padding: 12px;
             text-align: left;
         }
 
         .project-table th {
-            background-color: var(--azul-tecnm);
-            color: var(--blanco);
-            font-weight: 500;
+            background-color: #1B396A; /* Azul Institucional */
+            color: #ffffff;
+            font-weight: 600;
         }
 
         .project-table tr:nth-child(even) {
@@ -467,6 +468,20 @@
 
 .tab-content.active {
     display: block !important;
+}/* Asegura que el cuerpo de la sección esté oculto por defecto */
+.academic-body {
+    display: none;
+}
+
+/* Esta es la regla MÁGICA: si el contenedor padre tiene la clase 'open', muestra el cuerpo */
+.academic-section.open .academic-body {
+    display: block;
+}
+
+/* Asegura que la tabla tenga tamaño dentro del contenedor */
+.project-table {
+    display: table; /* Importante para que se renderice como tabla */
+    width: 100%;
 }
     </style>
 </head>
@@ -508,14 +523,78 @@
             <h1 class="profile-title">Dra. Sandra Trinidad del Moral Ventura</h1>
 
             <!-- Pestañas de Navegación -->
-            <div class="profile-tabs">
-                <button class="tab-btn active" onclick="switchProfileTab(event, 'trayect')">Trayectoria Profesional</button>
-                <button class="tab-btn" onclick="switchProfileTab(event, 'lineas')">Línea de Investigación</button>
-                <button class="tab-btn" onclick="switchProfileTab(event, 'publi')">Producción Científica</button>
-                <button class="tab-btn" onclick="switchProfileTab(event, 'estudiantes')">Estudiantes</button>
-                <button class="tab-btn" onclick="switchProfileTab(event, 'propiedad')">Sección Proyectos</button>
-                <button class="tab-btn" onclick="switchProfileTab(event, 'eventos')">Eventos y Difusión</button>
+<div class="profile-tabs">
+    <button class="tab-btn active" onclick="switchProfileTab(event, 'trayect')">Trayectoria Profesional</button>
+    <button class="tab-btn" onclick="switchProfileTab(event, 'lineas')">Línea de Investigación</button>
+    <button class="tab-btn" onclick="switchProfileTab(event, 'publi')">Producción Científica</button>
+    <button class="tab-btn" onclick="switchProfileTab(event, 'estudiantes')">Estudiantes</button>
+    <button class="tab-btn" onclick="switchProfileTab(event, 'eventos')">Eventos y Difusión</button>
+    <!-- Botón de Proyectos integrado al estilo -->
+    <button class="tab-btn" onclick="switchProfileTab(event, 'propiedad')">Sección Proyectos</button>
+</div>
             </div>
+
+<!-- Sección de Proyectos (Nueva Pestaña) -->
+<div id="propiedad" class="tab-content" style="display: none; padding: 20px; background: #fff; border: 1px solid #ddd; border-radius: 8px; margin-top: 20px;">
+    <div class="academic-section open">
+        <div class="academic-trigger" onclick="toggleAcademicSection(this)" style="cursor: pointer; font-weight: bold; padding: 10px; background: #f4f4f4; border-bottom: 2px solid #1B396A; margin-bottom: 10px;">
+            Liderazgo de Proyectos
+        </div>
+        <div class="academic-body">
+            <table class="project-table" style="width: 100%; border-collapse: collapse; font-size: 14px; text-align: left;">
+                <thead>
+                    <tr style="background-color: #1B396A; color: #ffffff;">
+                        <th style="padding: 12px; border: 1px solid #ddd;">Año</th>
+                        <th style="padding: 12px; border: 1px solid #ddd;">Proyecto</th>
+                        <th style="padding: 12px; border: 1px solid #ddd;">Institución</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="padding: 12px; border: 1px solid #ddd;">2026</td>
+                        <td style="padding: 12px; border: 1px solid #ddd;">Desarrollo y validación in vitro de postbióticos enriquecidos con ácidos grasos de cadena media mediante nanoemulsiones con potencial actividad antineuroinflamatoria.</td>
+                        <td style="padding: 12px; border: 1px solid #ddd;">TecNM</td>
+                    </tr>
+                    <tr style="background-color: #f9f9f9;">
+                        <td style="padding: 12px; border: 1px solid #ddd;">2025</td>
+                        <td style="padding: 12px; border: 1px solid #ddd;">Desarrollo de biocatalizadores innovadores para la producción sostenible de prebióticos emergentes con impacto en la salud.</td>
+                        <td style="padding: 12px; border: 1px solid #ddd;">SECIHTI</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 12px; border: 1px solid #ddd;">2025</td>
+                        <td style="padding: 12px; border: 1px solid #ddd;">Escalamiento de la producción de AmyJ33-ABC recombinante.</td>
+                        <td style="padding: 12px; border: 1px solid #ddd;">TecNM</td>
+                    </tr>
+                    <tr style="background-color: #f9f9f9;">
+                        <td style="padding: 12px; border: 1px solid #ddd;">2024</td>
+                        <td style="padding: 12px; border: 1px solid #ddd;">Estudio dinámico de la producción de AmyJ33-ABC recombinante.</td>
+                        <td style="padding: 12px; border: 1px solid #ddd;">TecNM</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 12px; border: 1px solid #ddd;">2023</td>
+                        <td style="padding: 12px; border: 1px solid #ddd;">Revalorización de los desechos de la producción de bioetanol 2G para la generación de biofertilizantes y enzimas.</td>
+                        <td style="padding: 12px; border: 1px solid #ddd;">COVEICYDET</td>
+                    </tr>
+                    <tr style="background-color: #f9f9f9;">
+                        <td style="padding: 12px; border: 1px solid #ddd;">2021</td>
+                        <td style="padding: 12px; border: 1px solid #ddd;">Producción de paclitaxel a partir de celulas de Taxus globosa y hongos endofíticos.</td>
+                        <td style="padding: 12px; border: 1px solid #ddd;">TecNM</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 12px; border: 1px solid #ddd;">2018</td>
+                        <td style="padding: 12px; border: 1px solid #ddd;">Desarrollo de herramientas biotecnológicas para la producción de bioetanol de 1G y 2G a partir de desechos agroindustriales a nivel planta piloto.</td>
+                        <td style="padding: 12px; border: 1px solid #ddd;">CONACYT</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+
+
+
 <div id="eventos" class="tab-content">
                 <div class="py-4">
                     
@@ -590,6 +669,9 @@
                         <p style="font-size: 14px; text-align: justify; margin-bottom: 15px;">
                             Mi área de interés es la biocatálisis aplicada a la industria alimentaria y de servicios. Dentro de la cual me he desarrollado en el estudio enzimas glicosilhidrolasas (fructosiltransferasas, glucosiltransferasas, celulasas y amilasas). Así mismo, tengo interés en la producción de metabolitos, en la caracterización molecular de microrganismos: bacterias y hongos, y en la búsqueda de enzimas con potencial aplicación industrial mediante el uso de técnicas tradicionales y metagenómicas. Actualmente me desarrollo en la generación de estrategias biotecnológicas sostenibles, modelos de economía circular, y bioprocesos para obtención de biomoléculas con aplicación en la salud.
                         </p>
+
+
+
                     </div>
                 </div>
 
@@ -1039,6 +1121,7 @@
         </button>
     </div>
 
+
     <div id="sub-activos" style="display: block; height: auto;">
     <div class="sub-section-title" style="margin-bottom: 10px; font-weight: bold; color: var(--dorado-itver);">Maestría</div>
     <div class="student-card">
@@ -1116,87 +1199,48 @@
         <div class="student-card">
             <div><strong>Antonia Guadalupe Rodríguez Lagunes (2026):</strong> Optimización en la remoción de lignina para la obtención de oligosacáridos. (Memoria de Residencias)</div>
         </div>
-            <!-- SECCIÓN PROYECTOS (FINANCIADOS ÚNICAMENTE) -->
-           <!-- SECCIÓN PROYECTOS (7 PROYECTOS REALES INTEGRADOS FIELMENTE) -->
-            <div id="propiedad" class="tab-content">
-                <div class="academic-section open">
-                    <div class="academic-trigger" onclick="toggleAcademicSection(this)">Liderazgo de Proyectos</div>
-                    <div class="academic-body">
-                        <div style="overflow-x: auto; margin-top: 15px;">
-                            <table class="project-table" style="width: 100%; border-collapse: collapse; font-family: 'Poppins', sans-serif; font-size: 14px; text-align: left; background-color: #ffffff; border: 1px solid #e2e8f0;">
-                                <thead>
-                                    <tr style="background-color: #1e3a6d; color: #ffffff;">
-                                 
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                   <div class="table-container">
-    <table style="width: 100%; border-collapse: collapse; font-family: sans-serif;">
-        <thead>
-            <tr style="background-color: #f7fafc; border-bottom: 2px solid #e2e8f0;">
-                <th style="padding: 12px 15px; text-align: left; color: #2d3748; font-weight: bold; border-right: 1px solid #e2e8f0;">Año</th>
-                <th style="padding: 12px 15px; text-align: left; color: #2d3748; font-weight: bold; border-right: 1px solid #e2e8f0;">Proyecto</th>
-                <th style="padding: 12px 15px; text-align: left; color: #2d3748; font-weight: bold; border-right: 1px solid #e2e8f0;">Institución</th>
+            <!-- SECCIÓN PROYECTOS -->
+<!-- CONTENEDOR PRINCIPAL: Todo lo necesario está aquí -->
+<div id="propiedad" style="display: block; font-family: sans-serif; padding: 20px; border: 1px solid #ccc; background: white;">
+    
+    <h2 style="color: #1B396A;">Liderazgo de Proyectos</h2>
+    
+    <!-- TABLA SENCILLA Y VISIBLE -->
+    <table style="width: 100%; border-collapse: collapse; margin-top: 15px; font-size: 14px; border: 1px solid #ddd;">
+        <thead style="background-color: #1B396A; color: white;">
+            <tr>
+                <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Año</th>
+                <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Proyecto</th>
+                <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Institución</th>
             </tr>
         </thead>
         <tbody>
-            <tr style="border-bottom: 1px solid #e2e8f0;">
-                <td style="padding: 12px 15px; color: #4a5568; border-right: 1px solid #e2e8f0; font-weight: bold;">2026</td>
-                <td style="padding: 12px 15px; color: #2d3748; border-right: 1px solid #e2e8f0;">Desarrollo y validación in vitro de postbióticos enriquecidos con ácidos grasos de cadena media mediante nanoemulsiones con potencial actividad antineuroinflamatoria.</td>
-                <td style="padding: 12px 15px; color: #4a5568; border-right: 1px solid #e2e8f0;">TecNM</td>
+            <tr style="background-color: #f9f9f9;">
+                <td style="padding: 10px; border: 1px solid #ddd;">2026</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Desarrollo de postbióticos con nanoemulsiones.</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">TecNM</td>
             </tr>
-
-            <tr style="border-bottom: 1px solid #e2e8f0;">
-                <td style="padding: 12px 15px; color: #4a5568; border-right: 1px solid #e2e8f0; font-weight: bold;">2025</td>
-                <td style="padding: 12px 15px; color: #2d3748; border-right: 1px solid #e2e8f0;">Desarrollo de biocatalizadores innovadores para la producción sostenible de prebióticos emergentes con impacto en la salud.</td>
-                <td style="padding: 12px 15px; color: #4a5568; border-right: 1px solid #e2e8f0;">SECIHTI</td>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ddd;">2025</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Biocatalizadores para prebióticos emergentes.</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">SECIHTI</td>
             </tr>
-
-            <tr style="border-bottom: 1px solid #e2e8f0;">
-                <td style="padding: 12px 15px; color: #4a5568; border-right: 1px solid #e2e8f0; font-weight: bold;">2025</td>
-                <td style="padding: 12px 15px; color: #2d3748; border-right: 1px solid #e2e8f0;">Escalamiento de la producción de AmyJ33-ABC recombinante.</td>
-                <td style="padding: 12px 15px; color: #4a5568; border-right: 1px solid #e2e8f0;">TecNM</td>
-            </tr>
-
-            <tr style="border-bottom: 1px solid #e2e8f0;">
-                <td style="padding: 12px 15px; color: #4a5568; border-right: 1px solid #e2e8f0; font-weight: bold;">2024</td>
-                <td style="padding: 12px 15px; color: #2d3748; border-right: 1px solid #e2e8f0;">Estudio dinámico de la producción de AmyJ33-ABC recombinante.</td>
-                <td style="padding: 12px 15px; color: #4a5568; border-right: 1px solid #e2e8f0;">TecNM</td>
-            </tr>
-
-            <tr style="border-bottom: 1px solid #e2e8f0;">
-                <td style="padding: 12px 15px; color: #4a5568; border-right: 1px solid #e2e8f0; font-weight: bold;">2023</td>
-                <td style="padding: 12px 15px; color: #2d3748; border-right: 1px solid #e2e8f0;">Revalorización de los desechos de la producción de bioetanol 2G para la generación de biofertilizantes y enzimas.</td>
-                <td style="padding: 12px 15px; color: #4a5568; border-right: 1px solid #e2e8f0;">COVEICYDET</td>
-            </tr>
-
-            <tr style="border-bottom: 1px solid #e2e8f0;">
-                <td style="padding: 12px 15px; color: #4a5568; border-right: 1px solid #e2e8f0; font-weight: bold;">2021</td>
-                <td style="padding: 12px 15px; color: #2d3748; border-right: 1px solid #e2e8f0;">Producción de paclitaxel a partir de células de Taxus globosa y hongos endofíticos.</td>
-                <td style="padding: 12px 15px; color: #4a5568; border-right: 1px solid #e2e8f0;">TecNM</td>
-            </tr>
-
-            <tr style="border-bottom: 1px solid #e2e8f0;">
-                <td style="padding: 12px 15px; color: #4a5568; border-right: 1px solid #e2e8f0; font-weight: bold;">2017</td>
-                <td style="padding: 12px 15px; color: #2d3748; border-right: 1px solid #e2e8f0;">Desarrollo de herramientas biotecnológicas para la producción de bioetanol de 1G y 2G a partir de desechos agroindustriales a nivel planta piloto.</td>
-                <td style="padding: 12px 15px; color: #4a5568; border-right: 1px solid #e2e8f0;">CONACYT</td>
-            </tr>
-
-            <tr style="border-bottom: 1px solid #e2e8f0;">
-                <td style="padding: 12px 15px; color: #4a5568; border-right: 1px solid #e2e8f0; font-weight: bold;">2010</td>
-                <td style="padding: 12px 15px; color: #2d3748; border-right: 1px solid #e2e8f0;">Metagenoma de suelos de la Cuenca del Papaloapan con potencial aplicación industrial.</td>
-                <td style="padding: 12px 15px; color: #4a5568; border-right: 1px solid #e2e8f0;">CONACYT</td>
-            </tr>
-
-            <tr style="border-bottom: 1px solid #e2e8f0;">
-                <td style="padding: 12px 15px; color: #4a5568; border-right: 1px solid #e2e8f0; font-weight: bold;">2009</td>
-                <td style="padding: 12px 15px; color: #2d3748; border-right: 1px solid #e2e8f0;">Metagenómica funcional a partir de microorganismos de suelos la Cuenca del Papaloapan con potencial aplicación industrial.</td>
-                <td style="padding: 12px 15px; color: #4a5568; border-right: 1px solid #e2e8f0;">PROMEP</td>
+            <tr style="background-color: #f9f9f9;">
+                <td style="padding: 10px; border: 1px solid #ddd;">2025</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Escalamiento AmyJ33-ABC recombinante.</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">TecNM</td>
             </tr>
         </tbody>
     </table>
+
+    <!-- BOTÓN DE ACCIÓN VISIBLE -->
+    <button onclick="alert('Sistema de edición abierto')" style="margin-top: 20px; padding: 10px 20px; background-color: #1B396A; color: white; border: none; border-radius: 5px; cursor: pointer;">
+        Editar Registros
+    </button>
 </div>
-           </section> <aside class="photo-sidebar">
+
+</section> 
+<aside class="photo-sidebar">
             <img src="perfil.jpg" alt="Sandra del Moral" style="width: 100%; max-width: 140px; height: auto; border-radius: 4px; display: block; margin: 0 auto 15px;">
             
             <div class="sidebar-name">Sandra Trinidad del Moral Ventura</div>
