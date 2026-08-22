@@ -4,21 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dra. Sandra Trinidad del Moral Ventura - UNIDA ITVer</title>
-    
     <!-- FUENTE GOOGLE FONTS: POPPINS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
     <style>
         :root {
-            --azul-tecnm: #2B4C43;        /* Cambio a Verde Eucalipto Profundo */
-            --dorado-itver: #7E9A8E;      /* Cambio a Verde Liquen Claro */
+            --azul-tecnm: #2B4C43;        
+            --dorado-itver: #7E9A8E;      
             --gris-breadcrumbs: #CDCDCD; 
-            --gris-fondo-sub: #EFEFEF;    /* Gris Frío */
+            --gris-fondo-sub: #EFEFEF;   
             --blanco: #FFFFFF;
             --texto-oscuro: #4A4A4A;
-            --verde-acordeon: #7E9A8E;    /* Cambio a Verde Liquen Claro */
+            --verde-acordeon: #7E9A8E;  
         }
 
         * {
@@ -152,8 +150,6 @@
     cursor: pointer; 
     transition: all 0.3s;
 }
-
-        
       /* --- CUERPO E INTERFAZ ACADÉMICA --- */
 .investigador-container {
     max-width: 1300px;
@@ -191,7 +187,7 @@
 
 .photo-carousel {
     width: 100%;
-    height: 520px; /* Altura ajustada para que luzcan mejor las fotos */
+    height: 520px; 
 <div class="photo-carousel" id="dynamic-carousel" onclick="switchProfileTab(event, 'eventos')" style="background-color: #3B6E60 !important;">
 </div>    border-radius: 12px;
     display: flex;
@@ -521,11 +517,9 @@
 
   <!-- ================= CABECERA SUPERIOR (Solo pestañas únicas) ================= -->
 <header class="ibt-header">
-   
-    
     <div class="header-right">
         <div class="profile-tabs" style="margin: 0; display: flex; gap: 5px; flex-wrap: wrap;">
-            <!-- Quitamos Trayectoria, Líneas y Producción de aquí arriba porque ya están al lado de tu tarjeta -->
+            <!-- El botón que activa la pestaña y hace la magia -->
             <button class="tab-btn" onclick="switchProfileTab(event, 'radio-prensa'); desplazarAbajo();">Radio y Prensa</button>
             <button class="tab-btn" onclick="switchProfileTab(event, 'estudiantes'); desplazarAbajo();">Estudiantes</button>
             <button class="tab-btn" onclick="switchProfileTab(event, 'mentorias'); desplazarAbajo();">Mentoría Postdoctoral</button>
@@ -534,7 +528,6 @@
         </div>
     </div>
 </header>
-
 <!-- ================= CUERPO PRINCIPAL ================= -->
 <main class="investigador-container">
     <aside class="photo-sidebar">
@@ -548,14 +541,16 @@
                     <p style="font-weight: bold; color: #2d5a27; margin: 10px 0 5px 0; font-size: 15px;">Investigadora en Biotecnología Microbiana</p>
                     <p style="color: #444; margin: 0 0 15px 0; line-height: 1.5; font-size: 14px;">Desarrollo de enzimas, biocatalizadores y procesos para la valorización de residuos agroindustriales mediante biotecnología.</p>
                     
-                    <p style="color: #555; margin-bottom: 15px;"><strong>Institución adscrita al TecNM</strong></p>
+                    <p style="color: #555; margin-bottom: 15px;"><strong>Profesora-Investigadora adscrita al Tecnológico Nacional de México/Instituto Tecnológico de Veracruz, Unidad de Investigación y Desarrollo en Alimentos (UNIDA)</strong></p>
 
                     <div class="sidebar-meta">
-                        <p><strong>Contacto:</strong><br>sandra.dv@veracruz.tecnm.mx<br>sandit.dmv@gmail.com</p>
-                        <p><strong>Redes:</strong> 
+                        <p style="margin-bottom: 10px;"><strong>Contacto:</strong><br>sandra.dv@veracruz.tecnm.mx<br>sandit.dmv@gmail.com</p>
+                        
+                        <p style="margin-bottom: 10px;"><strong>Redes:</strong> 
                             <a href="https://www.facebook.com/share/14Kz8YFQ5RA/" target="_blank">Facebook</a> | 
-                            <a href="#" target="_blank">Google Scholar</a>
+                            <a href="https://scholar.google.com/citations?user=SQjIGQMAAAAJ&hl=es" target="_blank">Google Scholar</a>
                         </p>
+
                         <p><strong>ORCID:</strong> 0000-0001-8815-0465</p>
                         <div class="membership-section">
                             <strong>Membresías y Cargos:</strong>
@@ -584,35 +579,30 @@
         <div class="academic-section open">
             <div class="academic-trigger" onclick="toggleAcademicSection(this)">Resumen de Perfil Profesional</div>
             <div class="academic-body">
-                <p style="font-size: 14px; text-align: justify; margin-bottom: 15px;">
-                    Mi área de interés es la biocatálisis aplicada a la industria alimentaria y de servicios. Dentro de la cual me he desarrollado en el estudio enzimas glicosilhidrolasas (fructosiltransferasas, glucosiltransferasas, celulasas y amilasas). Así mismo, tengo interés en la producción de metabolitos, en la caracterización molecular de microrganismos: bacterias y hongos, y en la búsqueda de enzimas con potencial aplicación industrial mediante el uso de técnicas tradicionales y metagenómicas. Actualmente me desarrollo en la generación de estrategias biotecnológicas sostenibles, modelos de economía circular, y bioprocesos para obtención de biomoléculas con aplicación en la salud.
-                </p>
+               <!-- Resumen del Perfil Profesional Actualizado -->
+<p style="font-size: 14px; text-align: justify; margin-bottom: 15px;">
+    Soy Profesora-Investigadora del Instituto Tecnológico de Veracruz y desarrollo investigación en el área de la biotecnología microbiana, con especial interés en el estudio y aplicación de enzimas de origen microbiano. Mi trabajo integra la biocatálisis, la ingeniería de enzimas y el descubrimiento de nuevos biocatalizadores con el desarrollo de procesos para la valorización de residuos agroindustriales.
+</p>
+<p style="font-size: 14px; text-align: justify; margin-bottom: 15px;">
+    A lo largo de mi trayectoria he trabajado en la búsqueda, producción, caracterización y aplicación de carbohidrasas, así como en el estudio de comunidades microbianas mediante herramientas metagenómicas y bioinformáticas. Actualmente, una parte importante de mi investigación se orienta al aprovechamiento de biomasa agroindustrial para la obtención de oligosacáridos, azúcares fermentables y otros productos de valor agregado.
+</p>
+<p style="font-size: 14px; text-align: justify; margin-bottom: 15px;">
+    Mi actividad científica se complementa con la formación de estudiantes de licenciatura y posgrado, la colaboración con grupos de investigación nacionales y el desarrollo de proyectos orientados a generar soluciones biotecnológicas sostenibles.
+</p>
             </div>
         </div>
 
-        <div class="academic-section">
-            <div class="academic-trigger" onclick="toggleAcademicSection(this)">Formación Académica</div>
-            <div class="academic-body">
-                <ul class="academic-list">
-                    <li><strong>Posdoctorado (2016–2017):</strong> UNIDA - Instituto Tecnológico de Veracruz, Laboratorio de Bioingeniería. Proyecto: <em>"Generación de cepas amilolíticas y fermentativas para la producción de etanol de primera generación"</em>. Investigador anfitrión : Dra. Guadalupe Aguilar Uscanga.</li>
-                    <li><strong>Estancia Sabática (agosto 2015-agosto 2016)</strong>: en la UNIDA-Instituto Tecnológico de Veracruz en el laboratorio de Bioingeniería, Investigador anfitrión Dra. Guadalupe Aguilar Uscanga. Proyecto: “Caracterización de enzimas productoras de azúcares simples para la producción de etanol”.</li>
-                    <li><strong>Doctorado en Ciencias Bioquímicas (2004-2008):</strong> Instituto de Biotecnología, UNAM. Departamento de Biocatálisis y biología molecular. Tesis: Función de las regiones adicionales de la inulosacarasa de Leuconostoc citreum.</li>
-                    <li><strong>Maestría en Ciencias Bioquímicas (2002-2004):</strong> Instituto de Biotecnología, UNAM. Departamento de Biocatálisis y biología molecular. Trabajo de Tesis: Degradación proteolítica de la dextransacarasa de Leuconostoc mesenteroides.</li>
-                    <li><strong>Licenciatura en Ingeniería Bioquímica (1996–2001):</strong> Instituto Tecnológico de Veracruz. Titulación por promedio (92). Residencias profesionales en el Laboratorio de Genética (UNIDA).</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="academic-section">
-            <div class="academic-trigger" onclick="toggleAcademicSection(this)">Experiencia Laboral</div>
-            <div class="academic-body">
-                <ul class="academic-list">
-                    <li><strong>Tecnológico Nacional de México Campus Veracruz (2024 – Fecha Actual):</strong> Profesor Investigador TC Titular C. Departamento de Ingeniería Química y Bioquímica (UNIDA). Docencia e investigación en el Laboratorio de Bromatología. Línea actual: Desarrollo de herramientas biotecnológicas para la producción de prebióticos emergentes mediante la revalorización de residuos agroindustriales.</li>
-                    <li><strong>Tecnológico Nacional de México Campus Veracruz (2018 – 2024):</strong> Investigador por México - Cátedra CONAHCyT. Actividades de docencia e investigación en el Laboratorio de Bioingeniería.</li>
-                    <li><strong>Universidad del Papaloapan, SUNEO, Tuxtepec, Oax. (2008 – 2018):</strong> Profesor Investigador Titular B. Jefa de la División de Estudios de Posgrado (Enero-Noviembre 2018). Responsable del Laboratorio de Biología Molecular. Fundadora de los Posgrados de Biotecnología. Profesora a nivel licenciatura y posgrado, tutora y directora de tesis.</li>
-                </ul>
-            </div>
-        </div>
+        <!-- Experiencia Profesional -->
+<div class="academic-section">
+    <div class="academic-trigger" onclick="toggleAcademicSection(this)">Experiencia Profesional</div>
+    <div class="academic-body">
+        <ul class="academic-list" style="font-size: 14px; text-align: justify;">
+            <li style="margin-bottom: 12px;"><strong>Tecnológico Nacional de México / Instituto Tecnológico de Veracruz (2024 – Fecha Actual):</strong> Profesor Investigador TC Titular C. Departamento de Ingeniería Química y Bioquímica-UNIDA. Docencia e investigación- Laboratorio de Bromatología.</li>
+            <li style="margin-bottom: 12px;"><strong>Tecnológico Nacional de México / Instituto Tecnológico de Veracruz (2018 – 2024):</strong> Investigador por México - Cátedra CONAHCyT. Actividades de docencia e investigación en el Laboratorio de Bioingeniería.</li>
+            <li style="margin-bottom: 12px;"><strong>Universidad del Papaloapan, SUNEO, Tuxtepec, Oax. (2008 – 2018):</strong> Profesor Investigador Titular B. Jefa de la División de Estudios de Posgrado. Responsable del Laboratorio de Biología Molecular. Fundadora de los Posgrados de Biotecnología. Profesora a nivel licenciatura y posgrado, tutora y directora de tesis.</li>
+        </ul>
+    </div>
+</div>
 
         <div class="academic-section">
             <div class="academic-trigger" onclick="toggleAcademicSection(this)">Docencia Reciente</div>
@@ -630,405 +620,437 @@
 
 
 <div id="lineas" class="tab-content" style="display: none;">
- <!-- LÍNEA 1 -->
+<!-- LÍNEA 1 -->
 <div class="academic-section open">
-    <div class="academic-trigger" onclick="toggleAcademicSection(this)">1. Biocatálisis Aplicada e Industria Alimentaria</div>
+    <div class="academic-trigger" onclick="toggleAcademicSection(this)">Biocatálisis e ingeniería de enzimas microbianas</div>
     <div class="academic-body">
         <!-- Imagen ilustrativa de la línea 1 -->
         <div style="margin-bottom: 15px; text-align: center;">
-            <img src="bioc.png" alt="Biocatálisis Aplicada" style="width: 100%; max-height: 400px; object-fit: contain; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+            <img src="bioc.png" alt="Biocatálisis e ingeniería de enzimas microbianas" style="width: 100%; max-height: 400px; object-fit: contain; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
         </div>
         <p style="font-size: 14px; margin-bottom: 12px; text-align: justify;">
-            <strong>Descripción:</strong> Estudio, producción y caracterización cinética de enzimas glicosilhidrolasas (fructosiltransferasas, glucosiltransferasas, celulasas y amilasas) para la obtención de biomoléculas de alto valor industrial. Se enfoca en el diseño de biocatalizadores eficientes orientados a la optimización de procesos en la industria alimentaria y farmacéutica.
+            Nuestro grupo desarrolla y estudia carbohidrasas de origen microbiano con aplicaciones en la transformación sostenible de biomasa. Empleamos herramientas de microbiología, biología molecular, ingeniería genética y bioquímica para el aislamiento, producción recombinante, optimización y caracterización de enzimas como amilasas, celulasas, xilanasas y β-glucosidasas. Asimismo, integramos análisis estructurales y bioinformáticos para comprender sus mecanismos catalíticos y ampliar su potencial de aplicación en procesos biotecnológicos.
         </p>
-        <p style="font-size: 13px; margin-bottom: 10px; color: #555;">
-            <strong>Objetivo:</strong> Aislar, caracterizar y aplicar sistemas enzimáticos libres o inmovilizados que permitan mejorar los rendimientos de síntesis y la estabilidad térmica en reactores a escala de laboratorio y piloto.
-        </p>
-        <p style="font-size: 13px; margin-bottom: 12px; color: #666; font-style: italic;">
-            <strong>Palabras clave:</strong> Enzimología, Glicosilhidrolasas, Cinética Enzimática, Biocatálisis Industrial.
-        </p>
-        <div class="article-block" style="background: #f7fafc; border-left: 4px solid #1e3a6d; padding: 12px; margin-top: 10px; border-radius: 4px; font-size: 13px; line-height: 1.5;">
-            <strong>Desarrollo Destacado:</strong> Producción, caracterización y aplicación industrial de la α-amilasa termoestable, nativa y truncada AmyJ33-ABC, proveniente de <em>Bacillus siamensis / Bacillus amyloliquefaciens</em> para la hidrólisis enzimática eficiente de almidones complejos.
-        </div>
     </div>
 </div>
 
 <!-- LÍNEA 2 -->
 <div class="academic-section">
-    <div class="academic-trigger" onclick="toggleAcademicSection(this)">2. Bioprocesos Sostenibles y Economía Circular</div>
+    <div class="academic-trigger" onclick="toggleAcademicSection(this)">Valorización de residuos agroindustriales para la obtención de productos funcionales</div>
     <div class="academic-body">
         <!-- Imagen ilustrativa de la línea 2 -->
         <div style="margin-bottom: 15px; text-align: center;">
-            <img src="valo.png" alt="Bioprocesos Sostenibles" style="width: 100%; max-height: 400px; object-fit: contain; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+            <img src="valo.png" alt="Valorización de residuos agroindustriales" style="width: 100%; max-height: 400px; object-fit: contain; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
         </div>
         <p style="font-size: 14px; margin-bottom: 12px; text-align: justify;">
-            <strong>Descripción:</strong> Desarrollo de herramientas biotecnológicas para la producción de prebióticos emergentes, postbióticos y almidón resistente mediante biocatálisis dirigida, utilizando subproductos agroindustriales locales como materia prima de bajo costo, mitigando el impacto ambiental.
+            Investigamos estrategias para transformar residuos agroindustriales en productos de alto valor agregado mediante procesos enzimáticos sostenibles. Nuestros estudios se enfocan en el aprovechamiento de materiales lignocelulósicos, como el pergamino de café y el bagazo de caña de azúcar, para la producción de oligosacáridos con potencial prebiótico, azúcares fermentables y otros compuestos de interés para las industrias alimentaria y biotecnológica. Esta línea contribuye al desarrollo de procesos de economía circular y al aprovechamiento integral de la biomasa.
         </p>
-        <p style="font-size: 13px; margin-bottom: 10px; color: #555;">
-            <strong>Objetivo:</strong> Revalorizar residuos lignocelulósicos y agroindustriales de la región del Golfo de México para integrarlos en cadenas de valor mediante procesos biotecnológicos limpios y escalables.
-        </p>
-        <p style="font-size: 13px; margin-bottom: 12px; color: #666; font-style: italic;">
-            <strong>Palabras clave:</strong> Economía Circular, Prebióticos, Revalorización de Residuos, Bagazo de Caña.
-        </p>
-        <div class="article-block" style="background: #f7fafc; border-left: 4px solid #1e3a6d; padding: 12px; margin-top: 10px; border-radius: 4px; font-size: 13px; line-height: 1.5;">
-            <strong>Desarrollo Destacado:</strong> Optimización multirespuesta de cócteles enzimáticos nativos y procesos de hidrólisis para el aprovechamiento integral de residuos cítricos, de piña y bagazo de caña de azúcar regionales.
-        </div>
     </div>
 </div>
 
 <!-- LÍNEA 3 -->
 <div class="academic-section">
-    <div class="academic-trigger" onclick="toggleAcademicSection(this)">3. Metagenómica Funcional y Diversidad Microbiana de Suelos</div>
+    <div class="academic-trigger" onclick="toggleAcademicSection(this)">Metagenómica y descubrimiento de nuevos biocatalizadores</div>
     <div class="academic-body">
         <!-- Imagen ilustrativa de la línea 3 -->
         <div style="margin-bottom: 15px; text-align: center;">
-            <img src="meta.png" alt="Metagenómica Funcional" style="width: 100%; max-height: 400px; object-fit: contain; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+            <img src="meta.png" alt="Metagenómica y descubrimiento de nuevos biocatalizadores" style="width: 100%; max-height: 400px; object-fit: contain; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
         </div>
         <p style="font-size: 14px; margin-bottom: 12px; text-align: justify;">
-            <strong>Descripción:</strong> Exploración del potencial genético, metabólico y biotecnológico de consorcios fúngicos y bacterianos nativos en suelos agrícolas complejos para la búsqueda, identificación y aislamiento de nuevas hidrolasas con alta estabilidad industrial mediante aproximaciones moleculares y metagenómicas.
+            Exploramos la diversidad genética de comunidades microbianas mediante herramientas de metagenómica, genómica funcional y bioinformática para identificar nuevas enzimas con potencial biotecnológico. El análisis de familias CAZyme, la anotación funcional y el modelado estructural permiten descubrir biocatalizadores con propiedades de interés y evaluar su aplicación en la conversión de biomasa y el desarrollo de bioprocesos.
         </p>
-        <p style="font-size: 13px; margin-bottom: 10px; color: #555;">
-            <strong>Objetivo:</strong> Identificar variantes genéticas únicas en microorganismos extremófilos o adaptados de zonas agrícolas que ofrezcan ventajas operativas (pH, temperatura, inhibidores) sobre las enzimas comerciales actuales.
-        </p>
-        <p style="font-size: 13px; margin-bottom: 12px; color: #666; font-style: italic;">
-            <strong>Palabras clave:</strong> Metagenómica Funcional, Consorcios Fúngicos, Biología Molecular, Microorganismos Nativos.
-        </p>
-        <div class="article-block" style="background: #f7fafc; border-left: 4px solid #1e3a6d; padding: 12px; margin-top: 10px; border-radius: 4px; font-size: 13px; line-height: 1.5;">
-            <strong>Desarrollo Destacado:</strong> Mapeo genómico, caracterización de la diversidad fúngica en suelos cultivados con caña de azúcar en la Cuenca del Papaloapan y aislamiento de cepas con alta eficiencia de degradación lignocelulósica sin precedentes.
-        </div>
     </div>
 </div>
-    </div>
+</div>
 
-<div id="publi" class="tab-content" style="display: none;">
-                
+<div id="publi" class="tab-content" style="display: none;">                
                 <div class="academic-section open">
                     <div class="academic-trigger" onclick="toggleAcademicSection(this)">Artículos Publicados (Indexados)</div>
                     <div class="academic-body">
                         <ul class="academic-list" style="font-size: 14px;">
+
+
                             
 <!-- ========================================== -->
-<!--            ARTÍCULOS CIENTÍFICOS           -->
+<!--            PRODUCCIÓN CIENTÍFICA           -->
 <!-- ========================================== -->
 
-<!-- 1. Hernández-Heredia, S. (2025) -->
-<li><strong>2025:</strong> Hernández-Heredia, S., Aguilar-Uscanga, M.G., Nolasco-Hipólito, C., del Moral S. Production and application of α-amylase, native AmyJ33-ABC, from Bacillus siamensis JJC33M in gelatinized potato starch and its industrial potential. Biotechnol Lett 47, 123.
-    <div class="doi-container">
-        <a href="https://doi.org/10.1007/s10529-025-03659-4" target="_blank" class="doi-link">DOI: 10.1007/s10529-025-03659-4</a>
-        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://via.placeholder.com/150?text=S.H.', 'S. Hernández-Heredia')">Ver Autor</span>
-    </div>
-</li>
-
-<!-- 2. Guevara-Sánchez, J.G. (2025) -->
-<li><strong>2025:</strong> Guevara-Sánchez JG, Aguilar-Uscanga MG, Ledesma-Escobar CA, Castro-Martínez C, Condé R, Sachman-Ruíz B, del Moral S. Taxane Producing Fungi Isolated from Taxus globosa Tree Bark. Microorganisms, 13(2), 300.
-    <div class="doi-container">
-        <a href="https://doi.org/10.3390/microorganisms13020300" target="_blank" class="doi-link">DOI: 10.3390/microorganisms13020300</a>
-        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://via.placeholder.com/150?text=J.G.', 'J.G. Guevara-Sánchez')">Ver Autor</span>
-    </div>
-</li>
-
-<!-- 3. Miranda-Sosa, A. (2024) -->
-<li><strong>2024:</strong> Miranda-Sosa A, del Moral S, Infanzón-Rodriguez MI, Aguilar-Uscanga MI. Reappraisal of different agro-industrial waste for the optimization of cellulase production from Aspergillus niger ITV02 in a liquid medium using a Box–Benkhen design. 3 Biotech 14, 278.
-    <div class="doi-container">
-        <a href="https://doi.org/10.1007/s13205-024-04120-5" target="_blank" class="doi-link">DOI: 10.1007/s13205-024-04120-5</a>
-        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://via.placeholder.com/150?text=A.M.', 'A. Miranda-Sosa')">Ver Autor</span>
-    </div>
-</li>
-
-<!-- 4. García-Paz, F.M. (2024) -->
-<li><strong>2024:</strong> García-Paz FM, del Moral S, Morales-Arrieta S, Ayala M, Treviño-Quintanilla LG, Olvera-Carranza C. Multidomain chimeric enzymes as a promising alternative for biocatalysts improvement: a minireview. Molecular Biology Reports, Vol 51, 410.
-    <div class="doi-container">
-        <a href="https://doi.org/10.1007/s11033-024-09332-9" target="_blank" class="doi-link">DOI: 10.1007/s11033-024-09332-9</a>
-        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://via.placeholder.com/150?text=F.G.', 'F.M. García-Paz')">Ver Autor</span>
-    </div>
-</li>
-
-<!-- 5. Infanzon-Rodriguez, M.I. (2024) -->
-<li><strong>2024:</strong> Infanzon-Rodriguez MI, del Moral S, Gomez-Rodriguez J, Faife-Perez E, Aguilar-Uscanga MG. Second-generation Bioethanol Production and Cellulases of Aspergillus niger ITV02 Using Sugarcane Bagasse as Substrate. Bioenerg. Res. 17, 160–172.
-    <div class="doi-container">
-        <a href="https://doi.org/10.1007/s12155-023-10640-4" target="_blank" class="doi-link">DOI: 10.1007/s12155-023-10640-4</a>
-        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=5Sa9aU0AAAAJ&citpid=3', 'M.I. Infanzón-Rodríguez')">Ver Autor</span>
-    </div>
-</li>
-
-<!-- 6. Infanzon-Rodriguez, M.I. (2023) -->
-<li><strong>2023:</strong> Infanzon-Rodriguez MI, del Moral S, Castro-Martinez C, Cano-Sarmiento C, Gomez-Rodriguez J, Aguilar-Uscanga MG. Multi-response optimization using the desirability function of exoglucanases, endoglucanases and β-glucosidases production by Aspergillus niger ITV-02 from delignified sugarcane bagasse. Sugar Tech, Vol 25, 86-98.
-    <div class="doi-container">
-        <a href="https://doi.org/10.1007/s12355-022-01191-7" target="_blank" class="doi-link">DOI: 10.1007/s12355-022-01191-7</a>
-        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=5Sa9aU0AAAAJ&citpid=3', 'M.I. Infanzón-Rodríguez')">Ver Autor</span>
-    </div>
-</li>
-
-<!-- 7. Hernández-Heredia, S.C. (2022) -->
-<li><strong>2022:</strong> Hernandez-Heredia SC, Peña-Castro J, Aguilar-Uscanga MA, Olvera C, Nolasco-Hipolito C, del Moral S. AmyJ33, a truncated amylase with improved catalytic properties. Biotechnology Letters 44(12), 1447-1463.
-    <div class="doi-container">
-        <a href="https://doi.org/10.1007/s10529-022-03311-5" target="_blank" class="doi-link">DOI: 10.1007/s10529-022-03311-5</a>
-        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://www.unpa.edu.mx/web/sites/default/files/imagenes/directorio/profesores/Julian_Mario_Pe%C3%B1a_0.png', 'J.M. Peña-Castro')">Ver Autor</span>
-    </div>
-</li>
-
-<!-- 8. Perez-Salazar, Y. (2022) -->
-<li><strong>2022:</strong> Perez-Salazar Y, Peña-Montes C, del Moral S, Aguilar-Uscanga MG. Cellulases production from Aspergillus niger-ITV-02 using corn lignocellulosic residues. Revista Mexicana de Ingeniería Química, 1-14.
-    <div class="doi-container">
-        <a href="https://doi.org/10.24275/rmiq/Alim2772" target="_blank" class="doi-link">DOI: 10.24275/rmiq/Alim2772</a>
-        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://via.placeholder.com/150?text=Y.P.', 'Y. Perez-Salazar')">Ver Autor</span>
-    </div>
-</li>
-
-<!-- 9. Varilla-Mazaba, A. (2022) -->
-<li><strong>2022:</strong> Varilla-Mazaba A, Raggazo-Sánchez JA, Calderón-Santoyo M, del Moral S, Gómez-Rodríguez J, Aguilar-Uscanga MG. Multi-response optimization of acid hydrolysis in sugarcane bagasse to obtain high xylose concentration. Biomass Conversion and Biorefinery.
-    <div class="doi-container">
-        <a href="https://doi.org/10.1007/s13399-022-02404-5" target="_blank" class="doi-link">DOI: 10.1007/s13399-022-02404-5</a>
-        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://media.licdn.com/dms/image/v2/D5635AQGSUl95BLelFg/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1712847500829?e=1783443600&v=beta&t=kbUzvqNTKr0R3P_wqGKmx97S3bUvWkFEnPECpv8gLHo', 'A. Varilla-Mazaba')">Ver Autor</span>
-    </div>
-</li>
-
-<!-- 10. Infanzón-Rodríguez, M.I. (2022) -->
-<li><strong>2022:</strong> Infanzon-Rodriguez MI, Ragazzo-Sanchez JA, del Moral S, Calderon-Santoyo M, Aguilar-Uscanga MG. Enzymatic hydrolysis of lignocellulosic biomass using native cellulase produced by Aspergillus niger ITV02 under liquid state fermentation. Biotechnology and Applied Biochemistry 69(1), 198-208.
-    <div class="doi-container">
-        <a href="https://doi.org/10.1002/bab.2097" target="_blank" class="doi-link">DOI: 10.1002/bab.2097</a>
-        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://estudiosnutricionales.com/assets/img/headshots/_200x200_crop_center-center_100/Juan-Arturo-Ragazzo-Sanchez.jpeg', 'J.A. Ragazzo-Sánchez')">Ver Autor</span>
-    </div>
-</li>
-
-<!-- 11. Ramírez-Lagunes, H. (2021) -->
-<li><strong>2021:</strong> Ramírez-Lagunes H, Aguilar-Uscanga MG, Infanzón-Rodríguez MI, Sachman-Ruiz B, Gómez-Rodríguez J, Nolasco-Hipólito C, del Moral S. Optimization of xylanase production from Aspergillus tamarii SCBH2 using response surface methodology. Biomass Conversion and Biorefinery.
-    <div class="doi-container">
-        <a href="https://doi.org/10.1007/s13399-021-02046-z" target="_blank" class="doi-link">DOI: 10.1007/s13399-021-02046-z</a>
-        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://via.placeholder.com/150?text=H.R.', 'H. Ramírez-Lagunes')">Ver Autor</span>
-    </div>
-</li>
-
-<!-- 12. Infanzón-Rodríguez, M.I. (2020) -->
-<li><strong>2020:</strong> Infanzon-Rodriguez MI, Ragazzo-Sanchez JA, del Moral S, Calderon-Santoyo M, Aguilar-Uscanga MG. Production and characterization of an enzyme extract with cellulase activity produced by an indigenous strain of Fusarium verticillioides ITV03 using sweet sorghum bagasse. Biotechnology Letters 42(11), 2271-2283.
-    <div class="doi-container">
-        <a href="https://doi.org/10.1007/s10529-020-02940" target="_blank" class="doi-link">DOI: 10.1007/s10529-020-02940</a>
-        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=5Sa9aU0AAAAJ&citpid=3', 'M.I. Infanzón-Rodríguez')">Ver Autor</span>
-    </div>
-</li>
-
-<!-- 13. Infanzón-Rodríguez, M.I. (2020 - Sugar Tech) -->
-<li><strong>2020:</strong> Infanzon-Rodriguez MI, Ragazzo-Sanchez JA, del Moral S, Calderon-Santoyo M, Gutierrez-Rivera B, Aguilar-Uscanga MG. Optimization of cellulase production by Aspergillus niger ITV 02 from sweet sorghum bagasse in submerged culture using a Box Behnken design. Sugar Tech 22, 266-273.
-    <div class="doi-container">
-        <a href="https://doi.org/10.1007/s12355-019-00765-2" target="_blank" class="doi-link">DOI: 10.1007/s12355-019-00765-2</a>
-        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=5Sa9aU0AAAAJ&citpid=3', 'M.I. Infanzón-Rodríguez')">Ver Autor</span>
-    </div>
-</li>
-
-<!-- 14. Ojeda-Hernández, F. (2019) -->
-<li><strong>2019:</strong> Ojeda-Hernandez F, del Moral-Ventura S, Capataz-Tafur J, Peña-Castro J, Abad-Zavaleta J, Chay-Canul A, Ramon-Ugalde J, Ungerfeld R, Meza-Villalvazo V. Vaginal microbiota in Pelibuey sheep treated with antimicrobials at the removal of intravaginal sponges impregnated with flurogestone acetate. Small Ruminant Research 170, 116-119.
-    <div class="doi-container">
-        <a href="https://doi.org/10.1016/j.smallrumres.2019.11.015" target="_blank" class="doi-link">DOI: 10.1016/j.smallrumres.2019.11.015</a>
-        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://via.placeholder.com/150?text=F.O.', 'F. Ojeda-Hernández')">Ver Autor</span>
-    </div>
-</li>
-
-<!-- 15. Cortés-López, N.G. (2018) -->
-<li><strong>2018:</strong> Cortés-López NG, Sachman-Ruiz B, Montor-Antonio JJ, Miranda-Sánchez F, Alcántara-Hernández RJ, del Moral S. Starch- and cellulose-related microbial diversity of soil sown with sugarcane crops in the Papaloapan Basin, a megadiverse region of Mexico. Nova Scientia 10(20), 222-243.
-    <div class="doi-container">
-        <a href="https://doi.org/10.21640/ns.v10i20.1314" target="_blank" class="doi-link">DOI: 10.21640/ns.v10i20.1314</a>
-        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=jLlq3HUAAAAJ&citpid=1', 'N.G. Cortés-López')">Ver Autor</span>
-    </div>
-</li>
-
-<!-- 16. Del Moral, S. (2018) -->
-<li><strong>2018:</strong> Del Moral S, Barradas-Dermitz DM, Aguilar-Uscanga MG. Production and biochemical characterization of α-glucosidase from Aspergillus niger ITV-01 isolated from sugar cane bagasse. 3 Biotech 8, 7.
-    <div class="doi-container">
-        <a href="https://doi.org/10.1007/s13205-017-1029-6" target="_blank" class="doi-link">DOI: 10.1007/s13205-017-1029-6</a>
-        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=SQjIGQMAAAAJ&citpid=12', 'S. del Moral')">Ver Autor</span>
-    </div>
-</li>
-
-<!-- 17. García-Gómez, M.J. (2017) -->
-<li><strong>2017:</strong> García-Gómez MJ, Del Moral Ventura ST, Nuñez-Gaona O, Ramírez-Coutiño LP, Sachman-Ruiz B. Identificación de bacterias ácido lácticas aisladas de suero fermentado de queso con potencial antimicrobiano. Journal CIM 5(2), 1183-1190.
-    <div class="doi-container">
-        <span class="doi-link">ISSN: 2007-8102</span>
-        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=-H00udAAAAAJ&citpid=1.', 'M.J. García-Gómez')">Ver Autor</span>
-    </div>
-</li>
-
-<!-- 18. Desgarennes-Alcalá, C.M. (2017) -->
-<li><strong>2017:</strong> Desgarennes-Alcalá CM, del Moral S, Meza-Villalvazo VM, Peña-Castro JM, Zarate-Martínez JP, Abad-Zavaleta J. Allelic and genotypic frequencies of CAPN1 and CAST, two genes associated to meat quality, in cattle from the Papaloapan Basin. Nova Scientia 19, 211-228.
-    <div class="doi-container">
-        <span class="doi-link">ISSN: 2007-0705</span>
-        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://scontent.fcvj4-1.fna.fbcdn.net/v/t39.30808-6/650340956_26497870149819616_5765890161417251664_n.jpg?stp=dst-jpg_tt6&cstp=mx960x540&ctp=s960x540&_nc_cat=101&ccb=1-7&_nc_sid=cf85f3&_nc_ohc=un544yrkr7oQ7kNvwEwOqRA&_nc_oc=AdqqKer1EH4JmtrUHqt60nMN-wdK6ZTyZcleg2q1LYzKNCzhzoju2ioEL25BLboqFEk&_nc_zt=23&_nc_ht=scontent.fcvj4-1.fna&_nc_gid=Ej8axOs4lZuO9fw9Rejp9A&_nc_ss=7b2a8&oh=00_AQDEJdcKyX5P_jscEUCHwvuPETw9i9QgZhj5PdEZ5UvxPQ&oe=6A4C8C62', 'C.M. Desgarennes-Alcalá')">Ver Autor</span>
-    </div>
-</li>
-
-<!-- 19. Peña-Castro, J.M. (2017) -->
-<li><strong>2017:</strong> Peña-Castro JM, del Moral S, Núñez-López L, Barrera-Figueroa BE, Amaya-Delgado L. Biotechnological strategies to improve plant biomass quality for bioethanol production. BioMed Research International 2017, 7824076.
-    <div class="doi-container">
-        <a href="https://doi.org/10.1155/2017/7824076" target="_blank" class="doi-link">DOI: 10.1155/2017/7824076</a>
-        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=GH9DUUIAAAAJ&citpid=2', 'J.M. Peña-Castro')">Ver Autor</span>
-    </div>
-</li>
-
-<!-- 20. Montor-Antonio, J.J. (2017) -->
-<li><strong>2017:</strong> Montor-Antonio JJ, Hernandez-Heredia S, Avila-Fernandez A, Olvera C, Sachman-Ruíz B, del Moral S. Effect of differential processing of the native and recombinant a-amylase from Bacillus amyloliquefaciens JJC33M on specificity and enzyme properties. 3 Biotech (Aceptado).
-    <div class="doi-container">
-        <span class="doi-link">ISSN: 2190-5738</span>
-        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://www.researchgate.net/profile/Juan-Montor-Antonio', 'J.J. Montor-Antonio')">Ver Autor</span>
-    </div>
-</li>
-
-<!-- 21. Martínez-López, V. (2016) -->
-<li><strong>2016:</strong> Martínez-Lopez V, del Moral S, Sachman-Ruiz B, Ramírez-Coutiño LP, Garcia-Gomez MJ. Dynamic population and lactic acid bacteria isolation from fermented whey. Nova Scientia 17, 326-339.
-    <div class="doi-container">
-        <span class="doi-link">ISSN: 2007-0705</span>
-        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=Sg7G2mAAAAAJ&citpid=2', 'V. Martínez-López')">Ver Autor</span>
-    </div>
-</li>
-
-<!-- 22. Hernández-Heredia, S. (2016 - Austin) -->
-<li><strong>2016:</strong> Hernández-Heredia S, Carrera-Lechuga J, Montor-Antonio JJ, Ramírez–Torres A, Delfín-García CO, Meza-Villalvazo V, García-Arellano C, del Moral S. Identification of bacterial contamination in fuel ethanol fermentation in southeastern Mexico. Austin Biochemistry 1(1), 1002.
-    <div class="doi-container">
-        <a href="http://austinpublishinggroup.com/biochemistry/online-first.php" target="_blank" class="doi-link">Ver en Portal Editorial</a>
-        <span class="author-btn-trigger" onclick="showAuthorPhoto('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEBUQEhIQEBISEBASEBAQEA8PDw8QFREWFhUSFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMsNygtLi0BCgoKDQ0OFQ8QFSsdFR0rLS0tLS0tLS0tLSsrLS0tLS0tLS0tLS0tLS0tKy0tLS03Ky0tLTc3NzctNy0rLS0tK//AABEIAOEA4QMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAABAAIEBQYDBwj/xAA9EAACAQIDBQUGAwgBBQEAAAAAAQIDEQQFIQYSMUFREyJhcZEHMlKBobEUI0IzNGJzgsHh8CQXU5Ky8RX/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID/8QAGxEBAQEBAAMBAAAAAAAAAAAAAAERMQIhQRL/2gAMAwEAAhEDEQA/ANYEAbGXQmggCAg2EEADkhJD0A0ckJkbHYyFKDnOUYxXNv6ASkRMdmlGivzJxj4c2YjOtsJze7SSil+pcX5Gbr4uVSV6knKXK5NG9xO3eGTtHlf42svqUlTbeTk3GNuSd+780Zl1OVk/Pkck09LWYGxwu3lWL79OM4/wuzLfD7d0H70KkPG10vQ86j5J/c6Kq7XWnVMaPYcuzahXV6dSMvC9pecH5Gbr4uVSV6knKXK5NG9xO3eGTtHfl42svqUlTbeTk3GNuSd+780Zl1OVk/Pkck09LWYGxwu3lWL79OM4/wuzLfD7d0H70KkPG10vQ86j5J/c6Kq7XWnVMaPYcuzahXV6dSMvC9pehYI8NpY9xkn7jX6oaM2+R7cJLcr62slUXH+ouo3iQkiNl2Pp1odpSkpxfNdSUgE0JIdYVgBYNgiQDRNDmhWAYCw+wGgGiCICssOAIKVg2EFgJIIkhyQCiOsJEHOczhh6bnNq/CMec30A455m9PD096T1d92K4tnlmaZrVrScpzbX6Y/pXy6js/zadeo6k2uajFcIroiphUXQyiTGdx0tenyOxHgrBp0W+HEAxl1+YZE2hlVSWu6+BJjs/Vt7rCqlSafRkmdt3e9Ud8VlNSPFM4qg0rWeugRFqR0v1+hyjoSakLaajlSVtef0AkZJndbDT3qcmlfvQfuSZl1PWtnc9p4unvw7slpOD4xZ4u6VlfxJOVZjPD1Y1YNqzW90lG+qZqD3ewkjjg8QqlOM1wlFMkIBJCaDYNgBYDQ4TQDGgWH2A0AyyCGwguqpIKQkhwDbBSDYdYAJDkgpDmgI2OxcaVOVSXCMW/PwPJM7zmpXqOrPg9KcPgjy+Zs/aDmsYQVHi5ay6RR5nUbnK5kMac3dk2hgJvhG/9y52dyftO9LguRucsySPGxZDGIyzZmrUaurI3OS7HwjZzSb+5p8Dl0VwRb0aCRcS1V4XJKS/Qiastpuzaup4tPIpcegY7C1P2tKUXCdrzjJOx6Ds5jHicHRq/2lODfdON7fQ41X009Y9dzn9hsd2WAwybvaio6+K6f6HR068fOxyv1mubf3mX96cvyW672W/wAov3J/6kHn1T45v3pP6tnovte7qX/0498bXzJ1R7q7srfEvyqM5p77L96W82s85T7tP83Gv+6T/AOouhJ3bS838zi195v8AvT/1F0K5v9v029H//Z', 'S. Hernández-Heredia')">Ver Autor</span>
-    </div>
-</li>
-
-<!-- 23. Hernández-Heredia, S. (2016 - JSM) -->
-<li><strong>2016:</strong> Hernandez-Heredia S, del Moral S. JSM Biotechnology and Biomedical Engineering 3(5), 1067.
-    <div class="doi-container">
-        <span class="doi-link">ISSN: 2333-7117</span>
-        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://via.placeholder.com/150?text=S.H.', 'S. Hernández-Heredia')">Ver Autor</span>
-    </div>
-</li>
-
-<!-- 24. Del Moral, S. (2015) -->
-<li><strong>2015:</strong> Del Moral S, Ramírez-Coutiño LP, García-Gómez MJ. Aspectos relevantes del uso de enzimas en la industria de los alimentos. Revista Iberoamericana de Ciencias 2(3), 87-102.
-    <div class="doi-container">
-        <a href="http://www.reibci.org/publicados/2015/mayo/1000102.pdf" target="_blank" class="doi-link">Ver en Portal Editorial</a>
-        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://www.unpa.edu.mx/profesores/tuxtepec/images/profesores_tuxtepec/laura_patricia_ramirez_coutinio.jpg', 'S. del Moral')">Ver Autor</span>
-    </div>
-</li>
-
-<!-- 25. Montor-Antonio, J.J. (2015 - Genome) -->
-<li><strong>2015:</strong> Montor-Antonio JJ, Sachman-Ruiz B, Lozano L, del Moral S. Draft genome sequence of Bacillus amyloliquefaciens JJC33M, isolated from sugarcane soils in the Papaloapan region, Mexico. Genome Announc 3(1), e01519-14.
-    <div class="doi-container">
-        <a href="https://doi.org/10.1128/genomeA.01519-14" target="_blank" class="doi-link">DOI: 10.1128/genomeA.01519-14</a>
-        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://www.researchgate.net/profile/Juan-Montor-Antonio', 'J.J. Montor-Antonio')">Ver Autor</span>
-    </div>
-</li>
-
-<!-- 26. Montor-Antonio, J.J. (2014 - Cloning) -->
-<li><strong>2014:</strong> Montor-Antonio JJ, del Moral S. Cloning of the α-amylase from Bacillus amyloliquefaciens JJC33M (amyJ33), isolated of sugarcane soil. Journal of Chemical, Biological and Physical Sciences 4, 111.
-    <div class="doi-container">
-        <span class="doi-link">E-ISSN: 2249-1929</span>
-        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://www.researchgate.net/profile/Juan-Montor-Antonio', 'J.J. Montor-Antonio')">Ver Autor</span>
-    </div>
-</li>
-
-<!-- 27. Cortés-López, N.G. (2014) -->
-<li><strong>2014:</strong> Cortés-López NG, Montor-Antonio JJ, Olvera-Carranza C, Pena-Castro JM, del Moral S. Metagenómica: una ventana de oportunidad a nuevos genes y genomas microbianos. Revista Iberoamericana de Ciencias 1, 45-58.
-    <div class="doi-container">
-        <a href="http://www.reibci.org/diciembre.html" target="_blank" class="doi-link">Ver en Portal Editorial</a>
-        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=jLlq3HUAAAAJ&citpid=1', 'N.G. Cortés-López')">Ver Autor</span>
-    </div>
-</li>
-
-<!-- 28. Gutiérrez-Lucas, L.R. (2014) -->
-<li><strong>2014:</strong> Gutiérrez-Lucas LR, Montor-Antonio JJ, Cortés-López NG, del Moral S. Strategies for the extraction, purification and amplification of metagenomic DNA from soil growing sugarcane. Advances in Biological Chemistry 4, 281-289.
-    <div class="doi-container">
-        <a href="http://dx.doi.org/10.4236/abc.2014.44034" target="_blank" class="doi-link">DOI: 10.4236/abc.2014.44034</a>
-        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://via.placeholder.com/150?text=L.G.', 'L.R. Gutiérrez-Lucas')">Ver Autor</span>
-    </div>
-</li>
-
-<!-- 29. Montor-Antonio, J.J. (2014 - Characterization) -->
-<li><strong>2014:</strong> Montor-Antonio JJ, Olvera C, Reyes-Duarte D, Sachman-Ruiz B, Ramirez-Coutiño LP, del Moral S. Biochemical characterization of the amylase from Bacillus amyloliquefaciens isolated of cane sugar soils at the Papaloapan region. Nova Scientia 6(12), 39-59.
-    <div class="doi-container">
-        <a href="https://doi.org/10.21640/ns.v6i12.23" target="_blank" class="doi-link">DOI: 10.21640/ns.v6i12.23</a>
-        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://www.researchgate.net/profile/Juan-Montor-Antonio', 'J.J. Montor-Antonio')">Ver Autor</span>
-    </div>
-</li>
-
-<!-- 30. Cortés-López, N.G. (2013) -->
-<li><strong>2013:</strong> Cortés-López NG, Abad-Zavaleta J, Bravo-Delgado HR, Meza-Villalvazo VM, Sachman-Ruiz B, García-Arellano C, del Moral S. Effect of fluorogestone acetate on the vaginal microbiota from ewes pelibuey in the Papaloapan region. Tropical and Subtropical Agroecosystems 16, 309-314.
-    <div class="doi-container">
-        <span class="doi-link">ISSN: 1870-0462</span>
-        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=jLlq3HUAAAAJ&citpid=1', 'N.G. Cortés-López')">Ver Autor</span>
-    </div>
-</li>
-
-<!-- 31. Cortés-López, N.G. (2012) -->
-<li><strong>2012:</strong> Cortés-López NG, del Moral S, Rueda JA, Luna-Palomera C, Meza-Herrera CA, Abad-Zavaleta. Allelic and genotypic frequency of kappa casein gene in double purpose cattle. Tropical and Subtropical Agroecosystems 15(1), 47-55.
-    <div class="doi-container">
-        <a href="https://www.redalyc.org/articulo.oa?id=93924483006" target="_blank" class="doi-link">Ver en Redalyc</a>
-        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://www.researchgate.net/profile/Abad-Zavaleta', 'N.G. Cortés-López')">Ver Autor</span>
-    </div>
-</li>
-
-<!-- 32. Abad-Zavaleta, J. (2011) -->
-<li><strong>2011:</strong> Abad-Zavaleta J, Sifuentes-Rincón AM, Lafón-Terrazas A, Gutiérrez-Alderete J, González Rodríguez E, Ortega Gutiérrez JA, del Moral S, Meza Herrera CA. Genetic diversity analysis of two desert bighorn sheep (ovis canadensis mexicana) population in Mexico. Tropical and Subtropical Agroecosystems 14, 171–178.
-    <div class="doi-container">
-        <span class="doi-link">ISSN: 1870-0462</span>
-        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://www.researchgate.net/profile/Abad-Zavaleta', 'J. Abad-Zavaleta')">Ver Autor</span>
-    </div>
-</li>
-
-<!-- 33. Del Moral, S. (2008) -->
-<li><strong>2008:</strong> del Moral S, Olvera C, Rodriguez ME, Lopez-Munguia A. Functional role of the additional domains in inulosucrase (IslA) from Leuconostoc citreum CW28. BMC Biochemistry 9(1), 6.
-    <div class="doi-container">
-        <a href="https://doi.org/10.1186/1471-2091-9-6" target="_blank" class="doi-link">DOI: 10.1186/1471-2091-9-6</a>
-        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://www.ibt.unam.mx/perfil/imagen/2368/Photo', 'S. del Moral')">Ver Autor</span>
-    </div>
-</li>
-                        </ul>
+<div class="academic-section open">
+    <div class="academic-trigger">Producción científica</div>
+    <div class="academic-body" style="padding: 20px;">
+        
+        <!-- SECCIÓN: PUBLICACIONES DESTACADAS -->
+        <h3 style="color: #2c3e50; margin-bottom: 15px; border-bottom: 2px solid #e83e8c; padding-bottom: 5px;">Publicaciones destacadas</h3>
+        
+        <div style="background-color: #fff0f3; border-left: 4px solid #e83e8c; padding: 15px; border-radius: 6px; margin-bottom: 25px;">
+            <ul style="list-style-type: none; padding-left: 0; margin: 0;">
+                
+                <!-- 1. Hernández-Heredia, S. (2025) -->
+                <li style="margin-bottom: 15px;"><strong>2025:</strong> Hernández-Heredia, S., Aguilar-Uscanga, M.G., Nolasco-Hipólito, C., del Moral S. Production and application of α-amylase, native AmyJ33-ABC, from Bacillus siamensis JJC33M in gelatinized potato starch and its industrial potential. Biotechnol Lett 47, 123.
+                    <div class="doi-container">
+                        <a href="https://doi.org/10.1007/s10529-025-03659-4" target="_blank" class="doi-link">DOI: 10.1007/s10529-025-03659-4</a>
+                        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://via.placeholder.com/150?text=S.H.', 'S. Hernández-Heredia')">Ver Autor</span>
                     </div>
-                </div>
+                </li>
 
-                <!-- ARTÍCULOS DE DIVULGACIÓN -->
-                <div class="academic-section">
-                    <div class="academic-trigger" onclick="toggleAcademicSection(this)">Artículos de Divulgación</div>
-                    <div class="academic-body">
-                        <ul class="academic-list" style="font-size: 14px;">
-                            <li style="margin-bottom: 12px;">
-                                <strong>2026:</strong> Figueroa-Hernandez CY, Delfin-Ruiz ME, del Moral Ventura ST. <em>"¡Mesero! Un menú de prebióticos para mis bacterias"</em>. Revista de divulgación Ingenius. Universidad Cristóbal Colón. Vol 1, número 4. 
-                                <a href="https://drive.google.com/file/d/1MY3Ua2BS1mEoZ-RtjYThWltvSpBxcDok/view" target="_blank" style="color: #2B4C43;">[Ver enlace]</a>
-                            </li>
-                            <li style="margin-bottom: 12px;">
-                                <strong>2023:</strong> Hernández Heredia SC, del Moral Ventura ST. <em>"Producción de enzimas recombinantes, un vistazo a lo increíble"</em>. Revista de divulgación Ingenius. Universidad Cristóbal Colón. Vol 1, número 2, pg, 22-25. 
-                                <a href="https://uccomunidad.ucc.mx/publications?type=Ingenius" target="_blank" style="color: #2B4C43;">[Ver enlace]</a>
-                            </li>
-                            <li style="margin-bottom: 12px;">
-                                <strong>2023:</strong> del Moral-Ventura ST, Carvajal-Zarrabal O, Navarro-Moreno LG, Carrillo-Ahumada J, Aguilar-Uscanga MG, Nolasco-Hipolito C. <em>"Desarrollo de tecnología para producir bioetanol lignocelulósico en México, retos y oportunidades"</em>. Revista Internacional de Investigación e Innovación Tecnológica. Año 11, no. 62. ISSN: 2007-9753 Latindex Folio: 23614. 
-                                <a href="https://riiit.com.mx/apps/site/idem.php?module=Catalog&action=ViewItem&id=6216&item_id=85549" target="_blank" style="color: #2B4C43;">[Ver enlace]</a>
-                            </li>
-                            <li style="margin-bottom: 12px;">
-                                <strong>2021:</strong> Ávila Fernández Ángela, del Moral Sandra y Ortiz-Soto Maria Elena. <em>"¿Héroes o villanos? Los azúcares en la salud y la enfermedad"</em>. Revista Digital Universitaria (rdu), 22(2). ISSN: 1607-6079. 
-                                <a href="http://doi.org/10.22201/cuaieed.16076079e.2021.22.2.5" target="_blank" style="color: #2B4C43;">[Ver DOI]</a>
-                            </li>
-                        </ul>
+                <!-- 2. Guevara-Sánchez, J.G. (2025) -->
+                <li style="margin-bottom: 15px;"><strong>2025:</strong> Guevara-Sánchez JG, Aguilar-Uscanga MG, Ledesma-Escobar CA, Castro-Martínez C, Condé R, Sachman-Ruíz B, del Moral S. Taxane Producing Fungi Isolated from Taxus globosa Tree Bark. Microorganisms, 13(2), 300.
+                    <div class="doi-container">
+                        <a href="https://doi.org/10.3390/microorganisms13020300" target="_blank" class="doi-link">DOI: 10.3390/microorganisms13020300</a>
+                        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://via.placeholder.com/150?text=J.G.', 'J.G. Guevara-Sánchez')">Ver Autor</span>
                     </div>
-                </div>
+                </li>
 
-                <!-- PATENTES -->
-                <div class="academic-section">
-                    <div class="academic-trigger" onclick="toggleAcademicSection(this)">Patentes</div>
-                    <div class="academic-body">
-                        <ul class="academic-list" style="font-size: 14px;">
-                            <li><strong>Patente en Trámite (2018):</strong> <em>"Proceso de producción de celulasas obtenidas de hongos autóctonos"</em>. Número de registro de solicitud: MX/E/2018/096207. Fecha de registro: 13 de diciembre de 2018.</li>
-                        </ul>
+                <!-- 3. Miranda-Sosa, A. (2024) -->
+                <li style="margin-bottom: 15px;"><strong>2024:</strong> Miranda-Sosa A, del Moral S, Infanzón-Rodriguez MI, Aguilar-Uscanga MI. Reappraisal of different agro-industrial waste for the optimization of cellulase production from Aspergillus niger ITV02 in a liquid medium using a Box–Benkhen design. 3 Biotech 14, 278.
+                    <div class="doi-container">
+                        <a href="https://doi.org/10.1007/s13205-024-04120-5" target="_blank" class="doi-link">DOI: 10.1007/s13205-024-04120-5</a>
+                        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://via.placeholder.com/150?text=A.M.', 'A. Miranda-Sosa')">Ver Autor</span>
                     </div>
-                </div>
+                </li>
 
-                <!-- CAPÍTULOS DE LIBRO -->
-                <div class="academic-section">
-                    <div class="academic-trigger" onclick="toggleAcademicSection(this)">Capítulos de Libro y Otras Publicaciones</div>
-                    <div class="academic-body">
-                        <ul class="academic-list" style="font-size: 14px;">
-                            <li><strong>Capítulo de Libro (2023):</strong> "Enzimas recombinantes para la producción de bioetanol". En: <em>Latinoamérica ante el desafío de las energías renovables</em>. Ave Editorial, pp. 106-125.</li>
-                            <li><strong>Capítulo de Libro (2019):</strong> "Soportes avanzados para la inmovilización de enzimas". En: <em>Tendencias Actuales en Biocatálisis Aplicada</em>. Editorial de Ciencias Básicas, pp. 210-233.</li>
-                        </ul>
+                <!-- 4. García-Paz, F.M. (2024) -->
+                <li style="margin-bottom: 15px;"><strong>2024:</strong> García-Paz FM, del Moral S, Morales-Arrieta S, Ayala M, Treviño-Quintanilla LG, Olvera-Carranza C. Multidomain chimeric enzymes as a promising alternative for biocatalysts improvement: a minireview. Molecular Biology Reports, Vol 51, 410.
+                    <div class="doi-container">
+                        <a href="https://doi.org/10.1007/s11033-024-09332-9" target="_blank" class="doi-link">DOI: 10.1007/s11033-024-09332-9</a>
+                        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://via.placeholder.com/150?text=F.G.', 'F.M. García-Paz')">Ver Autor</span>
                     </div>
-                </div>
+                </li>
 
+                <!-- 5. Infanzon-Rodriguez, M.I. (2024) -->
+                <li style="margin-bottom: 15px;"><strong>2024:</strong> Infanzon-Rodriguez MI, del Moral S, Gomez-Rodriguez J, Faife-Perez E, Aguilar-Uscanga MG. Second-generation Bioethanol Production and Cellulases of Aspergillus niger ITV02 Using Sugarcane Bagasse as Substrate. Bioenerg. Res. 17, 160–172.
+                    <div class="doi-container">
+                        <a href="https://doi.org/10.1007/s12155-023-10640-4" target="_blank" class="doi-link">DOI: 10.1007/s12155-023-10640-4</a>
+                        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=5Sa9aU0AAAAJ&citpid=3', 'M.I. Infanzón-Rodríguez')">Ver Autor</span>
+                    </div>
+                </li>
+
+                <!-- 6. Infanzon-Rodriguez, M.I. (2023) -->
+                <li style="margin-bottom: 0;"><strong>2023:</strong> Infanzon-Rodriguez MI, del Moral S, Castro-Martinez C, Cano-Sarmiento C, Gomez-Rodriguez J, Aguilar-Uscanga MG. Multi-response optimization using the desirability function of exoglucanases, endoglucanases and β-glucosidases production by Aspergillus niger ITV-02 from delignified sugarcane bagasse. Sugar Tech, Vol 25, 86-98.
+                    <div class="doi-container">
+                        <a href="https://doi.org/10.1007/s12355-022-01191-7" target="_blank" class="doi-link">DOI: 10.1007/s12355-022-01191-7</a>
+                        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=5Sa9aU0AAAAJ&citpid=3', 'M.I. Infanzón-Rodríguez')">Ver Autor</span>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+
+        <!-- BOTÓN PARA DESPLEGAR LA PRODUCCIÓN CIENTÍFICA COMPLETA -->
+        <div style="text-align: center; margin-bottom: 25px;">
+            <button onclick="var el = document.getElementById('full-pub-list'); el.style.display = el.style.display === 'none' ? 'block' : 'none'; this.innerText = el.style.display === 'none' ? 'Ver producción científica completa' : 'Ocultar producción científica completa';" style="background-color: #2c3e50; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-weight: bold; transition: background 0.3s;">
+                Ver producción científica completa
+            </button>
+        </div>
+
+        <!-- LISTADO COMPLETO DE PUBLICACIONES (OCULTO POR DEFECTO) -->
+        <div id="full-pub-list" style="display: none; margin-top: 15px;">
+            <h4 style="color: #2c3e50; margin-bottom: 15px;">Listado completo de publicaciones científicas</h4>
+            <ul style="padding-left: 20px;">
+                
+                <!-- 1. Hernández-Heredia, S. (2025) -->
+                <li><strong>2025:</strong> Hernández-Heredia, S., Aguilar-Uscanga, M.G., Nolasco-Hipólito, C., del Moral S. Production and application of α-amylase, native AmyJ33-ABC, from Bacillus siamensis JJC33M in gelatinized potato starch and its industrial potential. Biotechnol Lett 47, 123.
+                    <div class="doi-container">
+                        <a href="https://doi.org/10.1007/s10529-025-03659-4" target="_blank" class="doi-link">DOI: 10.1007/s10529-025-03659-4</a>
+                        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://via.placeholder.com/150?text=S.H.', 'S. Hernández-Heredia')">Ver Autor</span>
+                    </div>
+                </li>
+                <!-- Aquí puedes seguir pegando el resto de tus <li> del listado completo -->
+            </ul>
+        </div> <!-- Cierra id="full-pub-list" -->
+    </div>     <!-- Cierra class="academic-body" -->
+</div>         <!-- Cierra class="academic-section open" -->
+
+                <!-- 2. Guevara-Sánchez, J.G. (2025) -->
+                <li><strong>2025:</strong> Guevara-Sánchez JG, Aguilar-Uscanga MG, Ledesma-Escobar CA, Castro-Martínez C, Condé R, Sachman-Ruíz B, del Moral S. Taxane Producing Fungi Isolated from Taxus globosa Tree Bark. Microorganisms, 13(2), 300.
+                    <div class="doi-container">
+                        <a href="https://doi.org/10.3390/microorganisms13020300" target="_blank" class="doi-link">DOI: 10.3390/microorganisms13020300</a>
+                        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://via.placeholder.com/150?text=J.G.', 'J.G. Guevara-Sánchez')">Ver Autor</span>
+                    </div>
+                </li>
+
+                <!-- 3. Miranda-Sosa, A. (2024) -->
+                <li><strong>2024:</strong> Miranda-Sosa A, del Moral S, Infanzón-Rodriguez MI, Aguilar-Uscanga MI. Reappraisal of different agro-industrial waste for the optimization of cellulase production from Aspergillus niger ITV02 in a liquid medium using a Box–Benkhen design. 3 Biotech 14, 278.
+                    <div class="doi-container">
+                        <a href="https://doi.org/10.1007/s13205-024-04120-5" target="_blank" class="doi-link">DOI: 10.1007/s13205-024-04120-5</a>
+                        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://via.placeholder.com/150?text=A.M.', 'A. Miranda-Sosa')">Ver Autor</span>
+                    </div>
+                </li>
+
+                <!-- 4. García-Paz, F.M. (2024) -->
+                <li><strong>2024:</strong> García-Paz FM, del Moral S, Morales-Arrieta S, Ayala M, Treviño-Quintanilla LG, Olvera-Carranza C. Multidomain chimeric enzymes as a promising alternative for biocatalysts improvement: a minireview. Molecular Biology Reports, Vol 51, 410.
+                    <div class="doi-container">
+                        <a href="https://doi.org/10.1007/s11033-024-09332-9" target="_blank" class="doi-link">DOI: 10.1007/s11033-024-09332-9</a>
+                        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://via.placeholder.com/150?text=F.G.', 'F.M. García-Paz')">Ver Autor</span>
+                    </div>
+                </li>
+
+                <!-- 5. Infanzon-Rodriguez, M.I. (2024) -->
+                <li><strong>2024:</strong> Infanzon-Rodriguez MI, del Moral S, Gomez-Rodriguez J, Faife-Perez E, Aguilar-Uscanga MG. Second-generation Bioethanol Production and Cellulases of Aspergillus niger ITV02 Using Sugarcane Bagasse as Substrate. Bioenerg. Res. 17, 160–172.
+                    <div class="doi-container">
+                        <a href="https://doi.org/10.1007/s12155-023-10640-4" target="_blank" class="doi-link">DOI: 10.1007/s12155-023-10640-4</a>
+                        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=5Sa9aU0AAAAJ&citpid=3', 'M.I. Infanzón-Rodríguez')">Ver Autor</span>
+                    </div>
+                </li>
+
+                <!-- 6. Infanzon-Rodriguez, M.I. (2023) -->
+                <li><strong>2023:</strong> Infanzon-Rodriguez MI, del Moral S, Castro-Martinez C, Cano-Sarmiento C, Gomez-Rodriguez J, Aguilar-Uscanga MG. Multi-response optimization using the desirability function of exoglucanases, endoglucanases and β-glucosidases production by Aspergillus niger ITV-02 from delignified sugarcane bagasse. Sugar Tech, Vol 25, 86-98.
+                    <div class="doi-container">
+                        <a href="https://doi.org/10.1007/s12355-022-01191-7" target="_blank" class="doi-link">DOI: 10.1007/s12355-022-01191-7</a>
+                        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=5Sa9aU0AAAAJ&citpid=3', 'M.I. Infanzón-Rodríguez')">Ver Autor</span>
+                    </div>
+                </li>
+
+                <!-- 7. Hernández-Heredia, S.C. (2022) -->
+                <li><strong>2022:</strong> Hernandez-Heredia SC, Peña-Castro J, Aguilar-Uscanga MA, Olvera C, Nolasco-Hipolito C, del Moral S. AmyJ33, a truncated amylase with improved catalytic properties. Biotechnology Letters 44(12), 1447-1463.
+                    <div class="doi-container">
+                        <a href="https://doi.org/10.1007/s10529-022-03311-5" target="_blank" class="doi-link">DOI: 10.1007/s10529-022-03311-5</a>
+                        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://www.unpa.edu.mx/web/sites/default/files/imagenes/directorio/profesores/Julian_Mario_Pe%C3%B1a_0.png', 'J.M. Peña-Castro')">Ver Autor</span>
+                    </div>
+                </li>
+
+                <!-- 8. Perez-Salazar, Y. (2022) -->
+                <li><strong>2022:</strong> Perez-Salazar Y, Peña-Montes C, del Moral S, Aguilar-Uscanga MG. Cellulases production from Aspergillus niger-ITV-02 using corn lignocellulosic residues. Revista Mexicana de Ingeniería Química, 1-14.
+                    <div class="doi-container">
+                        <a href="https://doi.org/10.24275/rmiq/Alim2772" target="_blank" class="doi-link">DOI: 10.24275/rmiq/Alim2772</a>
+                        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://via.placeholder.com/150?text=Y.P.', 'Y. Perez-Salazar')">Ver Autor</span>
+                    </div>
+                </li>
+
+                <!-- 9. Varilla-Mazaba, A. (2022) -->
+                <li><strong>2022:</strong> Varilla-Mazaba A, Raggazo-Sánchez JA, Calderón-Santoyo M, del Moral S, Gómez-Rodríguez J, Aguilar-Uscanga MG. Multi-response optimization of acid hydrolysis in sugarcane bagasse to obtain high xylose concentration. Biomass Conversion and Biorefinery.
+                    <div class="doi-container">
+                        <a href="https://doi.org/10.1007/s13399-022-02404-5" target="_blank" class="doi-link">DOI: 10.1007/s13399-022-02404-5</a>
+                        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://media.licdn.com/dms/image/v2/D5635AQGSUl95BLelFg/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1712847500829?e=1783443600&v=beta&t=kbUzvqNTKr0R3P_wqGKmx97S3bUvWkFEnPECpv8gLHo', 'A. Varilla-Mazaba')">Ver Autor</span>
+                    </div>
+                </li>
+
+                <!-- 10. Infanzón-Rodríguez, M.I. (2022) -->
+                <li><strong>2022:</strong> Infanzon-Rodriguez MI, Ragazzo-Sanchez JA, del Moral S, Calderon-Santoyo M, Aguilar-Uscanga MG. Enzymatic hydrolysis of lignocellulosic biomass using native cellulase produced by Aspergillus niger ITV02 under liquid state fermentation. Biotechnology and Applied Biochemistry 69(1), 198-208.
+                    <div class="doi-container">
+                        <a href="https://doi.org/10.1002/bab.2097" target="_blank" class="doi-link">DOI: 10.1002/bab.2097</a>
+                        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://estudiosnutricionales.com/assets/img/headshots/_200x200_crop_center-center_100/Juan-Arturo-Ragazzo-Sanchez.jpeg', 'J.A. Ragazzo-Sánchez')">Ver Autor</span>
+                    </div>
+                </li>
+
+                <!-- 11. Ramírez-Lagunes, H. (2021) -->
+                <li><strong>2021:</strong> Ramírez-Lagunes H, Aguilar-Uscanga MG, Infanzón-Rodríguez MI, Sachman-Ruiz B, Gómez-Rodríguez J, Nolasco-Hipólito C, del Moral S. Optimization of xylanase production from Aspergillus tamarii SCBH2 using response surface methodology. Biomass Conversion and Biorefinery.
+                    <div class="doi-container">
+                        <a href="https://doi.org/10.1007/s13399-021-02046-z" target="_blank" class="doi-link">DOI: 10.1007/s13399-021-02046-z</a>
+                        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://via.placeholder.com/150?text=H.R.', 'H. Ramírez-Lagunes')">Ver Autor</span>
+                    </div>
+                </li>
+
+                <!-- 12. Infanzón-Rodríguez, M.I. (2020) -->
+                <li><strong>2020:</strong> Infanzon-Rodriguez MI, Ragazzo-Sanchez JA, del Moral S, Calderon-Santoyo M, Aguilar-Uscanga MG. Production and characterization of an enzyme extract with cellulase activity produced by an indigenous strain of Fusarium verticillioides ITV03 using sweet sorghum bagasse. Biotechnology Letters 42(11), 2271-2283.
+                    <div class="doi-container">
+                        <a href="https://doi.org/10.1007/s10529-020-02940" target="_blank" class="doi-link">DOI: 10.1007/s10529-020-02940</a>
+                        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=5Sa9aU0AAAAJ&citpid=3', 'M.I. Infanzón-Rodríguez')">Ver Autor</span>
+                    </div>
+                </li>
+
+                <!-- 13. Infanzón-Rodríguez, M.I. (2020 - Sugar Tech) -->
+                <li><strong>2020:</strong> Infanzon-Rodriguez MI, Ragazzo-Sanchez JA, del Moral S, Calderon-Santoyo M, Gutierrez-Rivera B, Aguilar-Uscanga MG. Optimization of cellulase production by Aspergillus niger ITV 02 from sweet sorghum bagasse in submerged culture using a Box Behnken design. Sugar Tech 22, 266-273.
+                    <div class="doi-container">
+                        <a href="https://doi.org/10.1007/s12355-019-00765-2" target="_blank" class="doi-link">DOI: 10.1007/s12355-019-00765-2</a>
+                        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=5Sa9aU0AAAAJ&citpid=3', 'M.I. Infanzón-Rodríguez')">Ver Autor</span>
+                    </div>
+                </li>
+
+                <!-- 14. Ojeda-Hernández, F. (2019) -->
+                <li><strong>2019:</strong> Ojeda-Hernandez F, del Moral-Ventura S, Capataz-Tafur J, Peña-Castro J, Abad-Zavaleta J, Chay-Canul A, Ramon-Ugalde J, Ungerfeld R, Meza-Villalvazo V. Vaginal microbiota in Pelibuey sheep treated with antimicrobials at the removal of intravaginal sponges impregnated with flurogestone acetate. Small Ruminant Research 170, 116-119.
+                    <div class="doi-container">
+                        <a href="https://doi.org/10.1016/j.smallrumres.2019.11.015" target="_blank" class="doi-link">DOI: 10.1016/j.smallrumres.2019.11.015</a>
+                        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://via.placeholder.com/150?text=F.O.', 'F. Ojeda-Hernández')">Ver Autor</span>
+                    </div>
+                </li>
+
+                <!-- 15. Cortés-López, N.G. (2018) -->
+                <li><strong>2018:</strong> Cortés-López NG, Sachman-Ruiz B, Montor-Antonio JJ, Miranda-Sánchez F, Alcántara-Hernández RJ, del Moral S. Starch- and cellulose-related microbial diversity of soil sown with sugarcane crops in the Papaloapan Basin, a megadiverse region of Mexico. Nova Scientia 10(20), 222-243.
+                    <div class="doi-container">
+                        <a href="https://doi.org/10.21640/ns.v10i20.1314" target="_blank" class="doi-link">DOI: 10.21640/ns.v10i20.1314</a>
+                        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=jLlq3HUAAAAJ&citpid=1', 'N.G. Cortés-López')">Ver Autor</span>
+                    </div>
+                </li>
+
+                <!-- 16. Del Moral, S. (2018) -->
+                <li><strong>2018:</strong> Del Moral S, Barradas-Dermitz DM, Aguilar-Uscanga MG. Production and biochemical characterization of α-glucosidase from Aspergillus niger ITV-01 isolated from sugar cane bagasse. 3 Biotech 8, 7.
+                    <div class="doi-container">
+                        <a href="https://doi.org/10.1007/s13205-017-1029-6" target="_blank" class="doi-link">DOI: 10.1007/s13205-017-1029-6</a>
+                        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=SQjIGQMAAAAJ&citpid=12', 'S. del Moral')">Ver Autor</span>
+                    </div>
+                </li>
+
+                <!-- 17. García-Gómez, M.J. (2017) -->
+                <li><strong>2017:</strong> García-Gómez MJ, Del Moral Ventura ST, Nuñez-Gaona O, Ramírez-Coutiño LP, Sachman-Ruiz B. Identificación de bacterias ácido lácticas aisladas de suero fermentado de queso con potencial antimicrobiano. Journal CIM 5(2), 1183-1190.
+                    <div class="doi-container">
+                        <span class="doi-link">ISSN: 2007-8102</span>
+                        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=-H00udAAAAAJ&citpid=1.', 'M.J. García-Gómez')">Ver Autor</span>
+                    </div>
+                </li>
+
+                <!-- 18. Desgarennes-Alcalá, C.M. (2017) -->
+                <li><strong>2017:</strong> Desgarennes-Alcalá CM, del Moral S, Meza-Villalvazo VM, Peña-Castro JM, Zarate-Martínez JP, Abad-Zavaleta J. Allelic and genotypic frequencies of CAPN1 and CAST, two genes associated to meat quality, in cattle from the Papaloapan Basin. Nova Scientia 19, 211-228.
+                    <div class="doi-container">
+                        <span class="doi-link">ISSN: 2007-0705</span>
+                        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://scontent.fcvj4-1.fna.fbcdn.net/v/t39.30808-6/650340956_26497870149819616_5765890161417251664_n.jpg?stp=dst-jpg_tt6&cstp=mx960x540&ctp=s960x540&_nc_cat=101&ccb=1-7&_nc_sid=cf85f3&_nc_ohc=un544yrkr7oQ7kNvwEwOqRA&_nc_oc=AdqqKer1EH4JmtrUHqt60nMN-wdK6ZTyZcleg2q1LYzKNCzhzoju2ioEL25BLboqFEk&_nc_zt=23&_nc_ht=scontent.fcvj4-1.fna&_nc_gid=Ej8axOs4lZuO9fw9Rejp9A&_nc_ss=7b2a8&oh=00_AQDEJdcKyX5P_jscEUCHwvuPETw9i9QgZhj5PdEZ5UvxPQ&oe=6A4C8C62', 'C.M. Desgarennes-Alcalá')">Ver Autor</span>
+                    </div>
+                </li>
+
+                <!-- 19. Peña-Castro, J.M. (2017) -->
+                <li><strong>2017:</strong> Peña-Castro JM, del Moral S, Núñez-López L, Barrera-Figueroa BE, Amaya-Delgado L. Biotechnological strategies to improve plant biomass quality for bioethanol production. BioMed Research International 2017, 7824076.
+                    <div class="doi-container">
+                        <a href="https://doi.org/10.1155/2017/7824076" target="_blank" class="doi-link">DOI: 10.1155/2017/7824076</a>
+                        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=GH9DUUIAAAAJ&citpid=2', 'J.M. Peña-Castro')">Ver Autor</span>
+                    </div>
+                </li>
+
+                <!-- 20. Montor-Antonio, J.J. (2017) -->
+                <li><strong>2017:</strong> Montor-Antonio JJ, Hernandez-Heredia S, Avila-Fernandez A, Olvera C, Sachman-Ruíz B, del Moral S. Effect of differential processing of the native and recombinant a-amylase from Bacillus amyloliquefaciens JJC33M on specificity and enzyme properties. 3 Biotech (Aceptado).
+                    <div class="doi-container">
+                        <span class="doi-link">ISSN: 2190-5738</span>
+                        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://www.researchgate.net/profile/Juan-Montor-Antonio', 'J.J. Montor-Antonio')">Ver Autor</span>
+                    </div>
+                </li>
+
+                <!-- 21. Martínez-López, V. (2016) -->
+                <li><strong>2016:</strong> Martínez-Lopez V, del Moral S, Sachman-Ruiz B, Ramírez-Coutiño LP, Garcia-Gomez MJ. Dynamic population and lactic acid bacteria isolation from fermented whey. Nova Scientia 17, 326-339.
+                    <div class="doi-container">
+                        <span class="doi-link">ISSN: 2007-0705</span>
+                        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=Sg7G2mAAAAAJ&citpid=2', 'V. Martínez-López')">Ver Autor</span>
+                    </div>
+                </li>
+
+                <!-- 22. Hernández-Heredia, S. (2016 - Austin) -->
+                <li><strong>2016:</strong> Hernández-Heredia S, Carrera-Lechuga J, Montor-Antonio JJ, Ramírez–Torres A, Delfín-García CO, Meza-Villalvazo V, García-Arellano C, del Moral S. Identification of bacterial contamination in fuel ethanol fermentation in southeastern Mexico. Austin Biochemistry 1(1), 1002.
+                    <div class="doi-container">
+                        <a href="http://austinpublishinggroup.com/biochemistry/online-first.php" target="_blank" class="doi-link">Ver en Portal Editorial</a>
+                        <span class="author-btn-trigger" onclick="showAuthorPhoto('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEBUQEhIQEBISEBASEBAQEA8PDw8QFREWFhUSFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMsNygtLi0BCgoKDQ0OFQ8QFSsdFR0rLS0tLS0tLS0tLSsrLS0tLS0tLS0tLS0tLS0tKy0tLS03Ky0tLTc3NzctNy0rLS0tK//AABEIAOEA4QMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAABAAIEBQYDBwj/xAA9EAACAQIDBQUGAwgBBQEAAAAAAQIDEQQFIQYSMUFREyJhcZEHMlKBobEUI0IzNGJzgsHh8CQXU5Ky8RX/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID/8QAGxEBAQEBAAMBAAAAAAAAAAAAAAERMQIhQRL/2gAMAwEAAhEDEQA/ANYEAbGXQmggCAg2EEADkhJD0A0ckJkbHYyFKDnOUYxXNv6ASkRMdmlGivzJxj4c2YjOtsJze7SSil+pcX5Gbr4uVSV6knKXK5NG9xO3eGTtHlf42svqUlTbeTk3GNuSd+780Zl1OVk/Pkck09LWYGxwu3lWL79OM4/wuzLfD7d0H70KkPG10vQ86j5J/c6Kq7XWnVMaPYcuzahXV6dSMvC9pecH5Gbr4uVSV6knKXK5NG9xO3eGTtHfl42svqUlTbeTk3GNuSd+780Zl1OVk/Pkck09LWYGxwu3lWL79OM4/wuzLfD7d0H70KkPG10vQ86j5J/c6Kq7XWnVMaPYcuzahXV6dSMvC9pehYI8NpY9xkn7jX6oaM2+R7cJLcr62slUXH+ouo3iQkiNl2Pp1odpSkpxfNdSUgE0JIdYVgBYNgiQDRNDmhWAYCw+wGgGiCICssOAIKVg2EFgJIIkhyQCiOsJEHOczhh6bnNq/CMec30A455m9PD096T1d92K4tnlmaZrVrScpzbX6Y/pXy6js/zadeo6k2uajFcIroiphUXQyiTGdx0tenyOxHgrBp0W+HEAxl1+YZE2hlVSWu6+BJjs/Vt7rCqlSafRkmdt3e9Ud8VlNSPFM4qg0rWeugRFqR0v1+hyjoSakLaajlSVtef0AkZJndbDT3qcmlfvQfuSZl1PWtnc9p4unvw7slpOD4xZ4u6VlfxJNVZjPD1Y1YNqzW90lG+qZqD3ewkjjg8QqlOM1wlFMkIBJCaDYNgBYDQ4TQDGgWH2A0AyyCGwguqpIKQkhwDbBSDYdYAJDkgpDmgI2OxcaVOVSXCMW/PwPJM7zmpXqOrPg9KcPgjy+Zs/aDmsYQVHi5ay6RR5nUbnK5kMac3dk2hgJvhG/9y52dyftO9LguRucsySPGxZDGIyzZmrUaurI3OS7HwjZzSb+5p8Dz0VwRb0aCRcS1V4XJKS/Qiastpuzaup4tPIpcegY7C1P2tKUXCdrzjJOx6Ds5jHicHRq/2lODfdON7fQ41X009Y9dzn9hsd2WAwybvaio6+K6f6HR068fOxyv1mubf3mX96cvyW672W/wAov3J/6kHn1T45v3pP6tnovte7qX/0498bXzJ1R7q7srfEvyqM5p77L96W82s85T7tP83Gv+6T/AOouhJ3bS838zi195v8AvT/1F0K5v9v029H//Z', 'S. Hernández-Heredia')">Ver Autor</span>
+                    </div>
+                </li>
+
+                <!-- 23. Hernández-Heredia, S. (2016 - JSM) -->
+                <li><strong>2016:</strong> Hernandez-Heredia S, del Moral S. JSM Biotechnology and Biomedical Engineering 3(5), 1067.
+                    <div class="doi-container">
+                        <span class="doi-link">ISSN: 2333-7117</span>
+                        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://via.placeholder.com/150?text=S.H.', 'S. Hernández-Heredia')">Ver Autor</span>
+                    </div>
+                </li>
+
+                <!-- 24. Del Moral, S. (2015) -->
+                <li><strong>2015:</strong> Del Moral S, Ramírez-Coutiño LP, García-Gómez MJ. Aspectos relevantes del uso de enzimas en la industria de los alimentos. Revista Iberoamericana de Ciencias 2(3), 87-102.
+                    <div class="doi-container">
+                        <a href="http://www.reibci.org/publicados/2015/mayo/1000102.pdf" target="_blank" class="doi-link">Ver en Portal Editorial</a>
+                        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://www.unpa.edu.mx/profesores/tuxtepec/images/profesores_tuxtepec/laura_patricia_ramirez_coutinio.jpg', 'S. del Moral')">Ver Autor</span>
+                    </div>
+                </li>
+
+                <!-- 25. Montor-Antonio, J.J. (2015 - Genome) -->
+                <li><strong>2015:</strong> Montor-Antonio JJ, Sachman-Ruiz B, Lozano L, del Moral S. Draft genome sequence of Bacillus amyloliquefaciens JJC33M, isolated from sugarcane soils in the Papaloapan region, Mexico. Genome Announc 3(1), e01519-14.
+                    <div class="doi-container">
+                        <a href="https://doi.org/10.1128/genomeA.01519-14" target="_blank" class="doi-link">DOI: 10.1128/genomeA.01519-14</a>
+                        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://www.researchgate.net/profile/Juan-Montor-Antonio', 'J.J. Montor-Antonio')">Ver Autor</span>
+                    </div>
+                </li>
+
+                <!-- 26. Montor-Antonio, J.J. (2014 - Cloning) -->
+                <li><strong>2014:</strong> Montor-Antonio JJ, del Moral S. Cloning of the α-amylase from Bacillus amyloliquefaciens JJC33M (amyJ33), isolated of sugarcane soil. Journal of Chemical, Biological and Physical Sciences 4, 111.
+                    <div class="doi-container">
+                        <span class="doi-link">E-ISSN: 2249-1929</span>
+                        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://www.researchgate.net/profile/Juan-Montor-Antonio', 'J.J. Montor-Antonio')">Ver Autor</span>
+                    </div>
+                </li>
+
+                <!-- 27. Cortés-López, N.G. (2014) -->
+                <li><strong>2014:</strong> Cortés-López NG, Montor-Antonio JJ, Olvera-Carranza C, Pena-Castro JM, del Moral S. Metagenómica: una ventana de oportunidad a nuevos genes y genomas microbianos. Revista Iberoamericana de Ciencias 1, 45-58.
+                    <div class="doi-container">
+                        <a href="http://www.reibci.org/diciembre.html" target="_blank" class="doi-link">Ver en Portal Editorial</a>
+                        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=jLlq3HUAAAAJ&citpid=1', 'N.G. Cortés-López')">Ver Autor</span>
+                    </div>
+                </li>
+
+                <!-- 28. Gutiérrez-Lucas, L.R. (2014) -->
+                <li><strong>2014:</strong> Gutiérrez-Lucas LR, Montor-Antonio JJ, Cortés-López NG, del Moral S. Strategies for the extraction, purification and amplification of metagenomic DNA from soil growing sugarcane. Advances in Biological Chemistry 4, 281-289.
+                    <div class="doi-container">
+                        <a href="http://dx.doi.org/10.4236/abc.2014.44034" target="_blank" class="doi-link">DOI: 10.4236/abc.2014.44034</a>
+                        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://via.placeholder.com/150?text=L.G.', 'L.R. Gutiérrez-Lucas')">Ver Autor</span>
+                    </div>
+                </li>
+
+                <!-- 29. Montor-Antonio, J.J. (2014 - Characterization) -->
+                <li><strong>2014:</strong> Montor-Antonio JJ, Olvera C, Reyes-Duarte D, Sachman-Ruiz B, Ramirez-Coutiño LP, del Moral S. Biochemical characterization of the amylase from Bacillus amyloliquefaciens isolated of cane sugar soils at the Papaloapan region. Nova Scientia 6(12), 39-59.
+                    <div class="doi-container">
+                        <a href="https://doi.org/10.21640/ns.v6i12.23" target="_blank" class="doi-link">DOI: 10.21640/ns.v6i12.23</a>
+                        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://www.researchgate.net/profile/Juan-Montor-Antonio', 'J.J. Montor-Antonio')">Ver Autor</span>
+                    </div>
+                </li>
+
+                <!-- 30. Cortés-López, N.G. (2013) -->
+                <li><strong>2013:</strong> Cortés-López NG, Abad-Zavaleta J, Bravo-Delgado HR, Meza-Villalvazo VM, Sachman-Ruiz B, García-Arellano C, del Moral S. Effect of fluorogestone acetate on the vaginal microbiota from ewes pelibuey in the Papaloapan region. Tropical and Subtropical Agroecosystems 16, 309-314.
+                    <div class="doi-container">
+                        <span class="doi-link">ISSN: 1870-0462</span>
+                        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=jLlq3HUAAAAJ&citpid=1', 'N.G. Cortés-López')">Ver Autor</span>
+                    </div>
+                </li>
+
+                <!-- 31. Cortés-López, N.G. (2012) -->
+                <li><strong>2012:</strong> Cortés-López NG, del Moral S, Rueda JA, Luna-Palomera C, Meza-Herrera CA, Abad-Zavaleta. Allelic and genotypic frequency of kappa casein gene in double purpose cattle. Tropical and Subtropical Agroecosystems 15(1), 47-55.
+                    <div class="doi-container">
+                        <a href="https://www.redalyc.org/articulo.oa?id=93924483006" target="_blank" class="doi-link">Ver en Redalyc</a>
+                        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://www.researchgate.net/profile/Abad-Zavaleta', 'N.G. Cortés-López')">Ver Autor</span>
+                    </div>
+                </li>
+
+                <!-- 32. Abad-Zavaleta, J. (2011) -->
+                <li><strong>2011:</strong> Abad-Zavaleta J, Sifuentes-Rincón AM, Lafón-Terrazas A, Gutiérrez-Alderete J, González Rodríguez E, Ortega Gutiérrez JA, del Moral S, Meza Herrera CA. Genetic diversity analysis of two desert bighorn sheep (ovis canadensis mexicana) population in Mexico. Tropical and Subtropical Agroecosystems 14, 171–178.
+                    <div class="doi-container">
+                        <span class="doi-link">ISSN: 1870-0462</span>
+                        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://www.researchgate.net/profile/Abad-Zavaleta', 'J. Abad-Zavaleta')">Ver Autor</span>
+                    </div>
+                </li>
+
+                <!-- 33. Del Moral, S. (2008) -->
+                <li><strong>2008:</strong> del Moral S, Olvera C, Rodriguez ME, Lopez-Munguia A. Functional role of the additional domains in inulosucrase (IslA) from Leuconostoc citreum CW28. BMC Biochemistry 9(1), 6.
+                    <div class="doi-container">
+                        <a href="https://doi.org/10.1186/1471-2091-9-6" target="_blank" class="doi-link">DOI: 10.1186/1471-2091-9-6</a>
+                        <span class="author-btn-trigger" onclick="showAuthorPhoto('https://www.ibt.unam.mx/perfil/imagen/2368/Photo', 'S. del Moral')">Ver Autor</span>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+
+        <!-- SECCIÓN: ARTÍCULOS DE DIVULGACIÓN -->
+        <h3 style="color: #2c3e50; margin-top: 30px; margin-bottom: 15px; border-bottom: 2px solid #e83e8c; padding-bottom: 5px;">Artículos de divulgación</h3>
+        <ul style="padding-left: 20px; margin-bottom: 25px;">
+            <li style="margin-bottom: 10px;"><strong>2026:</strong> Figueroa-Hernandez CY, Delfin-Ruiz ME, del Moral Ventura ST. "¡Mesero! Un menú de prebióticos para mis bacterias". Revista de divulgación Ingenius. Universidad Cristóbal Colón. Vol 1, número 4, pg. 40-46. [Ver enlace]</li>
+            <li style="margin-bottom: 10px;"><strong>2023:</strong> Hernández Heredia SC, del Moral Ventura ST. "Producción de enzimas recombinantes, un vistazo a lo increíble". Revista de divulgación Ingenius. Universidad Cristóbal Colón. Vol 1, número 2, pg, 22-25. <a href="https://drive.google.com/file/d/1nvI7hXBkNBTvkhkqPaNh2vkH3HUx3EmG/view" target="_blank">[Ver enlace]</a></li>
+            <li style="margin-bottom: 10px;"><strong>2023:</strong> del Moral-Ventura ST, Carvajal-Zarrabal O, Navarro-Moreno LG, Carrillo-Ahumada J, Aguilar-Uscanga MG, Nolasco-Hipolito C. "Desarrollo de tecnología para producir bioetanol lignocelulósico en México, retos y oportunidades". Revista Internacional de Investigación e Innovación Tecnológica. Año 11, no. 62. ISSN: 2007-9753 Latindex Folio: 23614. [Ver enlace]</li>
+            <li style="margin-bottom: 0;"><strong>2021:</strong> Ávila Fernández Ángela, del Moral Sandra y Ortiz-Soto Maria Elena. "¿Héroes o villanos? Los azúcares en la salud y la enfermedad". Revista Digital Universitaria (RDU), 22(2). ISSN: 1607-6079. <a href="http://doi.org/10.22201/cuaieed.16076079e.2021.22.2.5" target="_blank">[Ver DOI]</a></li>
+        </ul>
+
+        <!-- SECCIÓN: CAPÍTULOS DE LIBRO -->
+        <h3 style="color: #2c3e50; margin-top: 30px; margin-bottom: 15px; border-bottom: 2px solid #e83e8c; padding-bottom: 5px;">Capítulos de libro</h3>
+        <ul style="padding-left: 20px; margin: 0;">
+            <li style="margin-bottom: 10px;">Capítulo de Libro (2023): "Enzimas recombinantes para la producción de bioetanol". En: Latinoamérica ante el desafío de las energías renovables. Ave Editorial, pp. 106-125. ISBN 978-607-8153-79-4</li>
+            <li style="margin-bottom: 0;">Capítulo de Libro (2019): "Soportes avanzados para la inmovilización de enzimas". En: Tendencias Actuales en Biocatálisis Aplicada. Editorial de Ciencias Básicas, pp. 210-233.</li>
+</ul>
+</div>
+</div>
+</div>
 </div>
 
 
 <!-- ================= SECCIÓN PRINCIPAL DE ESTUDIANTES ================= -->
 <div id="estudiantes" class="tab-content" style="display: none; padding: 20px; background: #fff; border: 1px solid #ddd; border-radius: 8px; margin-top: 20px;">
+    
+    <!-- Encabezado principal y niveles académicos -->
+    <div style="margin-bottom: 25px; text-align: left;">
+        <h2 style="font-size: 22px; font-weight: bold; color: var(--texto-oscuro, #333); margin-bottom: 8px;">Formación de recursos humanos</h2>
+        <p style="font-size: 14px; color: var(--dorado-itver, #b8860b); font-weight: 500; margin: 0;">
+            Doctorado &middot; Maestría &middot; Licenciatura &middot; Residencias profesionales
+        </p>
+    </div>
     
     <!-- Sub-botones para alternar entre Alumnos Activos y Graduados -->
     <div style="display: flex; gap: 15px; margin-bottom: 25px; border-bottom: 1px solid #E2E8F0; padding-bottom: 10px;">
@@ -1058,13 +1080,13 @@
             <div><strong>Darío Vela:</strong> Maestría en Ciencias en Ingeniería Bioquímica. Evaluación del potencial antiofídico del fruto del crucetillo (Randia aculeata L.) mediante el estudio de neutralización de toxinas presentes en el veneno de Bothrops asper. Instituto Tecnológico de Veracruz. Codirectora.</div>
         </div>
         <div class="student-card">
-            <div><strong>Melisa Casillas Murrieta:</strong> Maestría en Ciencias en Ingeniería Bioquímica. Instituto Tecnológico de Veracruz. Evaluación in silico de endoxilanasas de la familia GH10 provenientes de rumen de búfalo y su expresión recombinante para la producción de xilooligosacáridos. Directora.</div>
+            <div><strong>Melisa Casillas Murrieta:</strong> Maestría en Ciencias en Ingeniería Bioquímica. Instituto Tecnológico de Veracruz. Evaluación in silico de endoxilanasas de la familia GH10 provenientes de rumen de búfalo y su expresión recombinante para la production de xilooligosacáridos. Directora.</div>
         </div>
         <div class="student-card">
             <div><strong>Carlos Loyo Inclán:</strong> Maestría en Ciencias en Ingeniería Bioquímica. Instituto Tecnológico de Veracruz. Escalamiento de la producción de la α-amilasa AmyJ33-ABC recombinante en un biorreactor. Codirectora.</div>
         </div>
         <div class="student-card">
-            <div><strong>Izamal Ocaña Parra:</strong> Maestría en Ciencias en Ingeniería Bioquímica. Instituto Tecnológico de Veracruz. Evaluación in silico de endoxilanasas de la familia GH10 provenientes de rumen de búfalo y su expresión recombinante. Directora.</div>
+            <div><strong>Izamal Ocaña Parra:</strong> Maestría en Ciencias en Ingeniería Bioquímica. Instituto Tecnológico de Veracruz. Análisis taxonómico, estructural y funcional de genes codificantes de endoglucanasas productoras de celooligosacáridos provenientes del metagenoma del rumen de búfalo (Bubalus bubalis). Directora.</div>
         </div>
 
         <div class="sub-section-title" style="margin-top: 20px; margin-bottom: 10px; font-weight: bold; color: var(--dorado-itver);">Licenciatura / Residencias Profesionales</div>
@@ -1143,8 +1165,6 @@
     </div>
 
 </div>
-</div>
-
 <!-- ================= SCRIPT DE DESPLAZAMIENTO ================= -->
 <script>
 function desplazarAbajo() {
@@ -1174,7 +1194,7 @@ function toggleContactModal() {
 <div id="radio-prensa" class="tab-content" style="display: none; padding: 20px; background: #fff; border: 1px solid #ddd; border-radius: 8px; margin-top: 20px;">
     <div class="academic-section open">
         <div class="academic-trigger" onclick="toggleAcademicSection(this)" style="cursor: pointer; font-weight: 500; padding: 10px; background: #f4f4f4; border-bottom: none; margin-bottom: 10px; color: var(--texto-oscuro, #333);">
-            Radio y Prensa
+            Radio y prensa
         </div>
         <div class="academic-body">
             <ul style="padding-left: 20px; font-size: 14px; line-height: 1.6; color: var(--texto-oscuro, #333); list-style-type: disc;">
@@ -1182,7 +1202,7 @@ function toggleContactModal() {
                     27 de junio de 2022: RadioSEV. "El cafecito con… Dra. Sandra T. del Moral Ventura". 107.7 FM (8:00 - 9:00 am).
                 </li>
                 <li style="margin-bottom: 12px; font-weight: normal;">
-                    14 de julio de 2022: RadioSEV. "Cuéntame tu historia… Dra. Sandra T. del Moral Ventura". 107.7 FM.
+                    15 de julio de 2022: RadioSEV. "Cuéntame tu historia… Dra. Sandra T. del Moral Ventura". 107.7 FM. <a href="https://open.spotify.com/episode/4RyPksug27RN96NsakImO1?si=WRXEt363Tl2sCdkPjNkh6A" target="_blank" style="color: var(--azul-tecnm); text-decoration: underline;">Ver enlace</a>.
                 </li>
                 <li style="margin-bottom: 12px; font-weight: normal;">
                     07 de junio de 2022: Reportaje de Tachiwín: Pláticas ConCiencia a través del Consejo Veracruzano de Investigación y Desarrollo Tecnológico. <a href="https://fb.watch/dwFAwFI4kR/" target="_blank" style="color: var(--azul-tecnm); text-decoration: underline;">Ver enlace</a>.
@@ -1191,7 +1211,7 @@ function toggleContactModal() {
                     04 de abril de 2019: Reportaje de TV Azteca Veracruz. <a href="https://fb.watch/eX-GqhrK6k/" target="_blank" style="color: var(--azul-tecnm); text-decoration: underline;">Ver enlace</a>.
                 </li>
                 <li style="margin-bottom: 12px; font-weight: normal;">
-                    21 de enero de 2015: del Moral S. "Del Ibt-UNAM al Papaloapan Oaxaqueño: una experiencia reveladora". <em>La Unión de Morelos</em>.
+                    21 de enero de 2015: del Moral S. "Del Ibt-UNAM al Papaloapan Oaxaqueño: una experiencia reveladora". <em>La Unión de Morelos</em>. <a href="https://www.launion.com.mx/opinion/sin-embargo-se-mueve/noticias/65667-del-ibt-unam-al-papaloapan-oaxaque%C3%B1o-una-experiencia-reveladora.html" target="_blank" style="color: var(--azul-tecnm); text-decoration: underline;">Ver enlace</a>.
                 </li>
                 <li style="margin-bottom: 12px; font-weight: normal;">
                     11 de agosto de 2011: del Moral S. "Viaje al fondo del suelo: un mundo por descubrir". <em>El Imparcial de Oaxaca</em>.
@@ -1200,7 +1220,6 @@ function toggleContactModal() {
         </div>
     </div>
 </div>
-
 
 
 <div id="mentorias" class="tab-content" style="display: none; padding: 20px; background: #fff; border: 1px solid #ddd; border-radius: 8px; margin-top: 20px;">
@@ -1343,66 +1362,86 @@ function toggleContactModal() {
 
 
 <div id="eventos" class="tab-content">
-                <div class="py-4">
-                    
-                    <div class="mb-5">
-                        <h3 style="font-family: 'Poppins', sans-serif; color: var(--azul-tecnm); font-weight: 600; margin-bottom: 20px; border-left: 4px solid var(--dorado-itver); padding-left: 10px;"><h3 style="font-family: 'Poppins', sans-serif; color: var(--azul-tecnm); font-weight: 600; margin-bottom: 20px; border-left: 4px solid var(--dorado-itver); padding-left: 10px;">
-        La Mancha
-    </h3>
-    
-    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 20px;">
-        <div style="aspect-ratio: 1 / 1; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
-            <img src="mancha1.jpg" alt="La Mancha 1" style="width: 100%; height: 100%; object-fit: cover; display: block;">
-        </div>
-        <div style="aspect-ratio: 1 / 1; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
-            <img src="mancha2.jpg" alt="La Mancha 2" style="width: 100%; height: 100%; object-fit: cover; display: block;">
-        </div>
-        <div style="aspect-ratio: 1 / 1; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
-            <img src="mancha3.jpg" alt="La Mancha 3" style="width: 100%; height: 100%; object-fit: cover; display: block;">
-        </div>
-        <div style="aspect-ratio: 1 / 1; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
-            <img src="mancha4.jpg" alt="La Mancha 4" style="width: 100%; height: 100%; object-fit: cover; display: block;">
-        </div>
-        <div style="aspect-ratio: 1 / 1; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
-            <img src="mancha5.jpg" alt="La Mancha 5" style="width: 100%; height: 100%; object-fit: cover; display: block;">
-        </div>
-    </div>
-
-    <hr class="my-5" style="border-color: #e2e8f0;">
-
-    <div class="mb-4">
-        <h3 style="font-family: 'Poppins', sans-serif; color: var(--azul-tecnm); font-weight: 600; margin-bottom: 20px; border-left: 4px solid var(--dorado-itver); padding-left: 10px;">
-            Posgrados 2026
-        </h3>
+    <div class="py-4">
         
-        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 20px;">
-            <div style="aspect-ratio: 1 / 1; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
-                <img src="posgrado1.jpg" alt="Posgrado 1" style="width: 100%; height: 100%; object-fit: cover; display: block;">
-            </div>
-            <div style="aspect-ratio: 1 / 1; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
-                <img src="posgrado2.jpg" alt="Posgrado 2" style="width: 100%; height: 100%; object-fit: cover; display: block;">
-            </div>
-            <div style="aspect-ratio: 1 / 1; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
-                <img src="posgrado3.jpg" alt="Posgrado 3" style="width: 100%; height: 100%; object-fit: cover; display: block;">
-            </div>
-            <div style="aspect-ratio: 1 / 1; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
-                <img src="posgrado4.jpg" alt="Posgrado 4" style="width: 100%; height: 100%; object-fit: cover; display: block;">
-            </div>
-            <div style="aspect-ratio: 1 / 1; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
-                <img src="posgrado5.jpg" alt="Posgrado 5" style="width: 100%; height: 100%; object-fit: cover; display: block;">
-            </div>
-            <div style="aspect-ratio: 1 / 1; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
-                <img src="posgrado6.jpg" alt="Posgrado 6" style="width: 100%; height: 100%; object-fit: cover; display: block;">
-            </div>
-            <div style="aspect-ratio: 1 / 1; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
-                <img src="posgrado7.jpg" alt="Posgrado 7" style="width: 100%; height: 100%; object-fit: cover; display: block;">
-            </div>
-            <div style="aspect-ratio: 1 / 1; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
-                <img src="posgrado8.jpg" alt="Posgrado 8" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+        <!-- Resumen introductorio de la sección -->
+        <div style="margin-bottom: 30px; font-size: 14px; line-height: 1.6; color: var(--texto-oscuro, #333); text-align: justify;">
+            <p>
+                Participamos activamente en eventos de difusión científica, vinculación con la sociedad y divulgación ambiental, promoviendo el acercamiento de la ciencia a diferentes sectores de la comunidad mediante actividades lúdicas, demostrativas y académicas.
+            </p>
+        </div>
+        
+        <!-- Sección del Festival de las Aves y los Humedales -->
+        <div class="mb-5">
+            <h3 style="font-family: 'Poppins', sans-serif; color: var(--azul-tecnm); font-weight: 600; margin-bottom: 15px; border-left: 4px solid var(--dorado-itver); padding-left: 10px;">
+                XXVII Festival de las Aves y los Humedales
+            </h3>
+            
+            <p style="font-size: 14px; line-height: 1.6; color: var(--texto-oscuro, #333); margin-bottom: 20px; text-align: justify;">
+                Participamos en actividades de divulgación y acercamiento de la ciencia a la sociedad, como el XXVII Festival de las Aves y los Humedales, realizado en La Mancha, Actopan, Veracruz. A través de actividades lúdicas y demostrativas, acercamos conceptos científicos a visitantes de diferentes edades, promoviendo el interés por la ciencia, la biodiversidad y el cuidado del ambiente.
+            </p>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 20px;">
+                <div style="aspect-ratio: 1 / 1; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+                    <img src="mancha1.jpg" alt="La Mancha 1" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                </div>
+                <div style="aspect-ratio: 1 / 1; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+                    <img src="mancha2.jpg" alt="La Mancha 2" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                </div>
+                <div style="aspect-ratio: 1 / 1; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+                    <img src="mancha3.jpg" alt="La Mancha 3" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                </div>
+                <div style="aspect-ratio: 1 / 1; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+                    <img src="mancha4.jpg" alt="La Mancha 4" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                </div>
+                <div style="aspect-ratio: 1 / 1; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+                    <img src="mancha5.jpg" alt="La Mancha 5" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                </div>
             </div>
         </div>
+
+        <hr class="my-5" style="border-color: #e2e8f0;">
+
+        <!-- Sección de ExpoPosgrados ITVER -->
+        <div class="mb-4">
+            <h3 style="font-family: 'Poppins', sans-serif; color: var(--azul-tecnm); font-weight: 600; margin-bottom: 15px; border-left: 4px solid var(--dorado-itver); padding-left: 10px;">
+                ExpoPosgrados ITVER
+            </h3>
+            
+            <p style="font-size: 14px; line-height: 1.6; color: var(--texto-oscuro, #333); margin-bottom: 20px; text-align: justify;">
+                Organizamos y participamos en la Expo de Posgrados de la Unidad de Investigación y Desarrollo en Alimentos (UNIDA), que se realiza anualmente durante el semestre enero-junio. Es un espacio abierto a toda la comunidad, en el que damos a conocer nuestros programas de posgrado, líneas de investigación y proyectos mediante juegos, actividades lúdicas y demostraciones científicas, promoviendo el acercamiento a la ciencia y la interacción directa con estudiantes e investigadores.
+            </p>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 20px;">
+                <div style="aspect-ratio: 1 / 1; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+                    <img src="posgrado1.jpg" alt="Posgrado 1" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                </div>
+                <div style="aspect-ratio: 1 / 1; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+                    <img src="posgrado2.jpg" alt="Posgrado 2" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                </div>
+                <div style="aspect-ratio: 1 / 1; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+                    <img src="posgrado3.jpg" alt="Posgrado 3" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                </div>
+                <div style="aspect-ratio: 1 / 1; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+                    <img src="posgrado4.jpg" alt="Posgrado 4" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                </div>
+                <div style="aspect-ratio: 1 / 1; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+                    <img src="posgrado5.jpg" alt="Posgrado 5" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                </div>
+                <div style="aspect-ratio: 1 / 1; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+                    <img src="posgrado6.jpg" alt="Posgrado 6" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                </div>
+                <div style="aspect-ratio: 1 / 1; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+                    <img src="posgrado7.jpg" alt="Posgrado 7" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                </div>
+                <div style="aspect-ratio: 1 / 1; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+                    <img src="posgrado8.jpg" alt="Posgrado 8" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                </div>
+            </div>
+        </div>
+
     </div>
-            <!-- TRAYECTORIA PROFESIONAL -->
+</div>            <!-- TRAYECTORIA PROFESIONAL -->
             <div id="trayect" class="tab-content active">
                 <div class="academic-section open">
                     <div class="academic-trigger" onclick="toggleAcademicSection(this)">Resumen de Perfil Profesional</div>
@@ -1856,24 +1895,30 @@ function toggleContactModal() {
             </div>
 
            <!-- ESTUDIANTES POR CATEGORÍA -->
+<!-- ESTUDIANTES / FORMACIÓN DE RECURSOS HUMANOS -->
 <div id="estudiantes" class="tab-content">
-    <p style="margin-bottom: 20px; font-style: italic; font-size: 14px; color: var(--dorado-itver);">
-    </p>
+    <!-- Encabezado principal y subtítulos solicitados -->
+    <div style="margin-bottom: 25px; text-align: left;">
+        <h2 style="font-size: 22px; font-weight: bold; color: var(--texto-oscuro, #333); margin-bottom: 8px;">Formación de recursos humanos</h2>
+        <p style="font-size: 14px; color: var(--dorado-itver, #b8860b); font-weight: 500; margin: 0;">
+            Doctorado &middot; Maestría &middot; Licenciatura &middot; Residencias profesionales
+        </p>
+    </div>
 
     <div class="sub-tabs-container" style="display: flex; gap: 15px; margin-bottom: 25px; border-bottom: 1px solid #E2E8F0; padding-bottom: 10px;">
         <!-- Botón Activos -->
-<button id="btn-sub-activos" class="mi-boton-estilo" 
-    style="background: var(--azul-tecnm); color: white;"
-    onclick="cambiarPestana('activos')">
-    Alumnos Activos
-</button>
+        <button id="btn-sub-activos" class="mi-boton-estilo" 
+            style="background: var(--azul-tecnm); color: white;"
+            onclick="cambiarPestana('activos')">
+            Alumnos Activos
+        </button>
 
-<!-- Botón Graduados -->
-<button id="btn-sub-graduados" class="mi-boton-estilo" 
-    style="background: #EDF2F7; color: var(--texto-oscuro);"
-    onclick="cambiarPestana('graduados')">
-    Alumnos Graduados
-</button>
+        <!-- Botón Graduados -->
+        <button id="btn-sub-graduados" class="mi-boton-estilo" 
+            style="background: #EDF2F7; color: var(--texto-oscuro);"
+            onclick="cambiarPestana('graduados')">
+            Alumnos Graduados
+        </button>
     </div>
 
 <script>
@@ -1900,12 +1945,6 @@ function cambiarPestana(tipo) {
 }
 </script>
 
-
-
-
-
-
-
    <!-- ================= SECCIÓN DE ALUMNOS ACTIVOS ================= -->
 <div id="sub-activos" style="display: block; height: auto;">
     <div class="sub-section-title" style="margin-bottom: 10px; font-weight: bold; color: var(--dorado-itver);">Doctorado</div>
@@ -1929,8 +1968,9 @@ function cambiarPestana(tipo) {
     <div class="student-card">
         <div><strong>Carlos Loyo Inclán:</strong> Maestría en Ciencias en Ingeniería Bioquímica. Instituto Tecnológico de Veracruz. Escalamiento de la producción de la α-amilasa AmyJ33-ABC recombinante en un biorreactor. Codirectora.</div>
     </div>
+    <!-- Izamal Ocaña Parra agregada en Maestría con su información detallada -->
     <div class="student-card">
-        <div><strong>Izamal Ocaña Parra:</strong> Maestría en Ciencias en Ingeniería Bioquímica. Instituto Tecnológico de Veracruz. Evaluación in silico de endoxilanasas de la familia GH10 provenientes de rumen de búfalo y su expresión recombinante. Directora.</div>
+        <div><strong>Izamal Ocaña Parra:</strong> Maestría en Ciencias en Ingeniería Bioquímica. Instituto Tecnológico de Veracruz. Análisis taxonómico, estructural y funcional de genes codificantes de endoglucanasas productoras de celooligosacáridos provenientes del metagenoma del rumen de búfalo (Bubalus bubalis). Directora.</div>
     </div>
 
     <div class="sub-section-title" style="margin-top: 20px; margin-bottom: 10px; font-weight: bold; color: var(--dorado-itver);">Licenciatura / Residencias Profesionales</div>
@@ -2006,8 +2046,8 @@ function cambiarPestana(tipo) {
     <div class="student-card">
         <div><strong>Ing. Antonia Guadalupe Rodríguez Lagunes (2026):</strong> Optimización en la remoción de lignina para la obtención de oligosacáridos. (Memoria de Residencias)</div>
     </div>
-</div>	
-</footer>
+</div>
+</div></footer>
 
 
 </section> 
@@ -2076,10 +2116,15 @@ if (loginTrigger) {
 <script>
 document.addEventListener("DOMContentLoaded", function() {
     const container = document.getElementById('dynamic-carousel');
-    const totalImages = 77; // Del 1 al 77
+    const totalImages = 78; // Límite total
 
-    // Generar las imágenes de forma limpia
+    // Generar las imágenes saltándose la 37 y la 38
     for (let i = 1; i <= totalImages; i++) {
+        // Si i es 37 o 38, se brinca esta iteración
+        if (i === 37 || i === 38) {
+            continue;
+        }
+
         const img = document.createElement('img');
         img.src = `carrusel${i}.jpg`;
         img.className = 'carousel-img';
@@ -2091,7 +2136,9 @@ document.addEventListener("DOMContentLoaded", function() {
         img.style.width = '100%';
         img.style.height = '100%';
         img.style.objectFit = 'contain'; // Mantiene la proporción de la foto sin recortarla
-        img.style.opacity = (i === 1) ? '1' : '0';
+        
+        // La primera imagen visible será la que toque (en este caso la 1)
+        img.style.opacity = (container.children.length === 0) ? '1' : '0';
         img.style.transition = 'opacity 1s ease-in-out';
         
         container.appendChild(img);
@@ -2106,11 +2153,10 @@ document.addEventListener("DOMContentLoaded", function() {
             slides[currentIndex].style.opacity = '0';
             currentIndex = (currentIndex + 1) % slides.length;
             slides[currentIndex].style.opacity = '1';
-        }, 2000); // Cambia de foto cada 4 segundos
+        }, 4000); // Cambia de foto cada 4 segundos
     }
 });
 </script>
-
 
 
 <!-- ================= FOOTER / PIE DE PÁGINA ================= -->
